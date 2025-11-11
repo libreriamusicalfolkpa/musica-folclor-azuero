@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto - Repositorio Musical de Azuero</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <header>
+    <h1>Contacto</h1>
+    <nav>
+      <a href="index.html">Inicio</a>
+    </nav>
+  </header>
+
+  <main class="contenedor">
+    <section id="contacto">
+      <h2>Escríbenos</h2>
+      <form id="form-contacto">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Correo:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+        <button type="submit" class="btn">Enviar</button>
+      </form>
+      <p id="respuesta-contacto" style="margin-top:10px;"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Antonio Díaz — Repositorio digital de música típica de Azuero.</p>
+  </footer>
+
+  <script>
+    const form = document.getElementById("form-contacto");
+    const respuesta = document.getElementById("respuesta-contacto");
+
+    form.addEventListener("submit", function(e) {
+      e.preventDefault();
+
+      const nombre = document.getElementById("nombre").value;
+      respuesta.textContent = `Gracias ${nombre}, tu mensaje ha sido recibido.`;
+
+      form.reset();
+    });
+  </script>
+</body>
+</html>
