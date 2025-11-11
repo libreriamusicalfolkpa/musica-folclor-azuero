@@ -86,7 +86,7 @@
     ]
   },
     {
-    "nombre": "Antonio Díaz",
+    "nombre": "Antonio Díaz García",
     "biografia": "Creador de esta página, acordeonista, violinista, compositor entre otros. Ganador de varios concursos.",
     "imagen": "imagenes/antonio_diaz_garcia.JPG",
     "obras": [
@@ -94,6 +94,18 @@
         "titulo": "Punto Mauricellis Díaz",
         "genero": "Punto",
         "pdf": "pdfs/Punto.pdf"
+      }
+    ]
+  },
+      {
+    "nombre": "Antonio Toño Díaz",
+    "biografia": "Mejor conocido como Antonio “Toño” Díaz, fue periodista y dedicó gran parte de su vida al estudio, promoción y preservación del folclor panameño.",
+    "imagen": "imagenes/antonio_diaz.jpg",
+    "obras": [
+      {
+        "titulo": "Punto Bajo el cielo a Tonosí",
+        "genero": "Punto",
+        "pdf": "pdfs/Punto_bajo_el_cielo_a_tonosi.pdf"
       }
     ]
   }
