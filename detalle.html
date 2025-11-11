@@ -1,81 +1,51 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Ficha de obra | Librería Musical Folk PA</title>
-  <meta name="description" content="Ficha individual de obras folclóricas de Azuero, Panamá. Visualización de partituras en PDF." />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ficha del Autor</title>
   <style>
-    :root{--verde:#004b23;--gris:#f3f4f6;--card:#ffffff;--texto:#222}
-    *{box-sizing:border-box}
-    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial; margin:0; color:var(--texto); background:var(--gris);}
-    header{background:var(--verde); color:#fff; padding:18px 16px; text-align:center}
-    header h1{margin:0;font-size:1.2rem}
-    main{max-width:900px;margin:24px auto;padding:0 16px}
-    .volver{display:inline-block;margin-bottom:20px;text-decoration:none;color:var(--verde);font-weight:600}
-    .card{background:var(--card);border-radius:10px;box-shadow:0 2px 6px rgba(0,0,0,0.1);padding:20px}
-    h2{color:var(--verde);margin-top:0}
-    .meta{font-size:0.95rem;color:#444}
-    iframe{width:100%;height:650px;border:none;border-radius:8px;margin-top:16px;background:#fff}
-    footer{max-width:900px;margin:28px auto 60px;padding:0 16px;text-align:center;color:#555;font-size:0.9rem}
-    @media (max-width:600px){iframe{height:500px}}
+    body { font-family: Arial; margin: 40px; background: #fff; }
+    img { width: 200px; height: 200px; border-radius: 10px; object-fit: cover; }
+    .obra { margin-bottom: 15px; }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Librería Musical Folk PA</h1>
-  </header>
-
-  <main>
-    <a href="index.html" class="volver">← Volver al catálogo</a>
-    <div id="detalle" class="card">
-      <p style="text-align:center;color:#666">Cargando ficha…</p>
-    </div>
-  </main>
-
- <footer style="text-align:center; padding:20px; border-top:1px solid #ccc; margin-top:40px; font-size:14px; color:#555;">
-  <p>© 2025 Antonio Díaz. Proyecto de tesis: “Elaboración de un repositorio digital de algunos géneros musicales típicos y folclóricos de la región de Azuero, República de Panamá”. Todos los derechos reservados.</p>
-  <p style="font-style:italic; font-size:13px;">Desarrollado con fines educativos y de preservación cultural.</p>
-</footer>
+  <a href="index.html">← Volver</a>
+  <div id="contenido"></div>
 
   <script>
-    document.getElementById('anio').textContent = new Date().getFullYear();
+    const urlParams = new URLSearchParams(window.location.search);
+    const nombreAutor = urlParams.get("nombre");
 
-    const DATA_PATH = 'data.json';
-    const params = new URLSearchParams(window.location.search);
-    const tituloBuscado = decodeURIComponent(params.get('titulo') || '').toLowerCase();
+    fetch("autores.json")
+      .then(res => res.json())
+      .then(data => {
+        const autor = data.find(a => a.nombre === nombreAutor);
+        if (!autor) {
+          document.getElementById("contenido").innerHTML = "<p>Autor no encontrado.</p>";
+          return;
+        }
 
-    async function cargarFicha() {
-      try {
-        const resp = await fetch(DATA_PATH, {cache:"no-store"});
-        if (!resp.ok) throw new Error('No se pudo cargar data.json');
-        const obras = await resp.json();
-        const obra = obras.find(o => (o.titulo || '').toLowerCase() === tituloBuscado);
-        mostrarFicha(obra);
-      } catch (err) {
-        document.getElementById('detalle').innerHTML = '<p style="color:#a00;text-align:center">Error al cargar la ficha.</p>';
-        console.error(err);
-      }
-    }
+        let html = `
+          <h1>${autor.nombre}</h1>
+          <img src="${autor.imagen}" alt="${autor.nombre}">
+          <p>${autor.biografia}</p>
+          <h2>Obras</h2>
+        `;
 
-    function mostrarFicha(obra) {
-      const cont = document.getElementById('detalle');
-      if (!obra) {
-        cont.innerHTML = '<p style="text-align:center;color:#666">No se encontró la obra solicitada.</p>';
-        return;
-      }
+        autor.obras.forEach(obra => {
+          html += `
+            <div class="obra">
+              <strong>${obra.titulo}</strong> (${obra.genero})<br>
+              <a href="${obra.pdf}" target="_blank">Ver partitura</a>
+            </div>
+          `;
+        });
 
-      cont.innerHTML = `
-        <h2>${obra.titulo || 'Sin título'}</h2>
-        <p class="meta"><strong>Autor:</strong> ${obra.autor || 'Desconocido'}<br>
-        <strong>Género:</strong> ${obra.genero || '—'}</p>
-        <p>${obra.descripcion || 'Sin descripción disponible.'}</p>
-        ${obra.pdf ? `<iframe src="${obra.pdf}" title="Partitura PDF"></iframe>` :
-          '<p style="color:#a00">No hay PDF disponible para esta obra.</p>'}
-      `;
-    }
-
-    cargarFicha();
+        document.getElementById("contenido").innerHTML = html;
+      })
+      .catch(err => console.error("Error al cargar autor:", err));
   </script>
 </body>
 </html>
