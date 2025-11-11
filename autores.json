@@ -67,5 +67,22 @@
         "pdf": "pdfs/Revolcon_en_san_antonio.pdf"
       }
     ]
+  },
+  {
+    "nombre": "Alberto Rodríguez",
+    "biografia": "Compuso su primera pieza musical en el año 1949, la que tituló María Luisa. Luego aparecieron Chitré, Eneida, Rufina Alfaro, Me voy a Pedasí, entre otras. Falleció en la ciudad de Chitré.",
+    "imagen": "imagenes/alberto_rodriguez.jpg",
+    "obras": [
+      {
+        "titulo": "Chitré",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Chitré.pdf"
+      },
+       {
+        "titulo": "Eneida",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Eneida.pdf"
+      }
+    ]
   }
 ]
