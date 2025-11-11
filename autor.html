@@ -37,7 +37,44 @@
     <p>© 2025 Antonio Díaz — Repositorio digital de música típica de Azuero.  
        Todos los derechos reservados. Proyecto educativo para la preservación cultural.</p>
   </footer>
+<script>
+fetch("autores.json")
+  .then(response => response.json())
+  .then(data => {
+    // Leer el nombre del autor desde la URL
+    const params = new URLSearchParams(window.location.search);
+    const nombreAutor = params.get("autor");
 
+    // Buscar el autor dentro del archivo JSON
+    const autor = data.find(a => a.nombre === nombreAutor);
+
+    if (autor) {
+      // Mostrar datos del autor
+      document.getElementById("autor-imagen").src = autor.imagen;
+      document.getElementById("autor-nombre").textContent = autor.nombre;
+      document.getElementById("autor-bio").textContent = autor.biografia;
+
+      // Mostrar lista de obras
+      const lista = document.getElementById("lista-obras");
+      autor.obras.forEach(obra => {
+        const li = document.createElement("li");
+        li.innerHTML = `
+          <strong>${obra.titulo}</strong> — ${obra.genero}<br>
+          <a href="${obra.pdf}" target="_blank" class="btn">Ver partitura</a>
+          <a href="${obra.pdf}" download class="btn">Descargar PDF</a>
+        `;
+        lista.appendChild(li);
+      });
+    } else {
+      document.getElementById("lista-obras").innerHTML = "<li>No se encontraron obras para este autor.</li>";
+    }
+  })
+  .catch(error => {
+    console.error("Error cargando el archivo JSON:", error);
+    document.getElementById("lista-obras").innerHTML = "<li>Error al cargar los datos.</li>";
+  });
+</script>
+  
 </body>
 </html>
 
