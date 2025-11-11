@@ -14,7 +14,7 @@
 
   <!-- 🔍 Buscador -->
   <section id="buscador">
-    <input type="text" id="buscar" placeholder="Buscar por autor, título o género...">
+    <input type="text" id="buscar" placeholder="Buscar por autor, título o género..." onkeypress="handleBuscar(event)">
   </section>
 
   <!-- 📚 Lista de autores -->
@@ -59,7 +59,7 @@
       });
     }
 
-    // Filtrar autores por búsqueda
+    // Filtrar autores por búsqueda en tiempo real
     input.addEventListener("input", e => {
       const texto = e.target.value.toLowerCase();
       const filtrados = autoresData.filter(autor =>
@@ -71,7 +71,18 @@
       );
       mostrarAutores(filtrados);
     });
+
+    // Redirigir a resultados.html al presionar Enter
+    function handleBuscar(e) {
+      if (e.key === "Enter") {
+        const texto = e.target.value.trim();
+        if (texto !== "") {
+          window.location.href = `resultados.html?busqueda=${encodeURIComponent(texto)}`;
+        }
+      }
+    }
   </script>
 </body>
 </html>
+
 
