@@ -84,5 +84,17 @@
         "pdf": "pdfs/Eneida.pdf"
       }
     ]
+  },
+    {
+    "nombre": "Antonio Díaz",
+    "biografia": "Creador de esta página, acordeonista, violinista, compositor entre otros. Ganador de varios concursos.",
+    "imagen": "imagenes/antonio_diaz_garcia.jpg",
+    "obras": [
+      {
+        "titulo": "Punto Mauricellis Díaz",
+        "genero": "Punto",
+        "pdf": "pdfs/Punto.pdf"
+      }
+    ]
   }
 ]
