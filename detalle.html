@@ -4,48 +4,40 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ficha del Autor</title>
-  <style>
-    body { font-family: Arial; margin: 40px; background: #fff; }
-    img { width: 200px; height: 200px; border-radius: 10px; object-fit: cover; }
-    .obra { margin-bottom: 15px; }
-  </style>
+  <link rel="stylesheet" href="css/estilos.css">
+  <script src="js/script.js" defer></script>
 </head>
 <body>
-  <a href="index.html">← Volver</a>
-  <div id="contenido"></div>
 
-  <script>
-    const urlParams = new URLSearchParams(window.location.search);
-    const nombreAutor = urlParams.get("nombre");
+  <header>
+    <h1>Repositorio de Música Típica de Azuero</h1>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+  </header>
 
-    fetch("autores.json")
-      .then(res => res.json())
-      .then(data => {
-        const autor = data.find(a => a.nombre === nombreAutor);
-        if (!autor) {
-          document.getElementById("contenido").innerHTML = "<p>Autor no encontrado.</p>";
-          return;
-        }
+  <main id="autor-detalle" class="contenedor">
+    <section class="info-autor">
+      <img id="autor-imagen" src="" alt="Foto del autor">
+      <div class="bio">
+        <h2 id="autor-nombre"></h2>
+        <p id="autor-bio"></p>
+        <p><strong>Visitas:</strong> <span id="contador-visitas">0</span></p>
+      </div>
+    </section>
 
-        let html = `
-          <h1>${autor.nombre}</h1>
-          <img src="${autor.imagen}" alt="${autor.nombre}">
-          <p>${autor.biografia}</p>
-          <h2>Obras</h2>
-        `;
+    <section class="obras">
+      <h3>Partituras disponibles</h3>
+      <ul id="lista-obras"></ul>
+    </section>
+  </main>
 
-        autor.obras.forEach(obra => {
-          html += `
-            <div class="obra">
-              <strong>${obra.titulo}</strong> (${obra.genero})<br>
-              <a href="${obra.pdf}" target="_blank">Ver partitura</a>
-            </div>
-          `;
-        });
+  <footer>
+    <p>© 2025 Antonio Díaz — Repositorio digital de música típica de Azuero.  
+       Todos los derechos reservados. Proyecto educativo para la preservación cultural.</p>
+  </footer>
 
-        document.getElementById("contenido").innerHTML = html;
-      })
-      .catch(err => console.error("Error al cargar autor:", err));
-  </script>
 </body>
 </html>
+
