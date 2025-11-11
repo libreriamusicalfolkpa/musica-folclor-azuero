@@ -43,7 +43,7 @@ fetch("autores.json")
   .then(data => {
     // Leer el nombre del autor desde la URL
     const params = new URLSearchParams(window.location.search);
-    const nombreAutor = params.get("autor");
+    const nombreAutor = params.get("nombre");
 
     // Buscar el autor dentro del archivo JSON
     const autor = data.find(a => a.nombre === nombreAutor);
