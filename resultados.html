@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resultados de búsqueda</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <header>
+    <h1>Resultados de búsqueda</h1>
+    <nav>
+      <a href="index.html">Inicio</a>
+    </nav>
+  </header>
+
+  <main id="resultados" class="contenedor"></main>
+
+  <footer>
+    <p>© 2025 Antonio Díaz — Repositorio digital de música típica de Azuero.</p>
+  </footer>
+
+  <script>
+    fetch("autores.json")
+      .then(res => res.json())
+      .then(data => {
+        const params = new URLSearchParams(window.location.search);
+        const busqueda = params.get("busqueda")?.toLowerCase() || "";
+        const contenedor = document.getElementById("resultados");
+
+        let resultados = [];
+
+        // Buscar coincidencias en autores, títulos o géneros
+        data.forEach(autor => {
+          const coincideAutor = autor.nombre.toLowerCase().includes(busqueda);
+          const obrasCoincidentes = autor.obras.filter(obra =>
+            obra.titulo.toLowerCase().includes(busqueda) ||
+            obra.genero.toLowerCase().includes(busqueda)
+          );
+
+          if (coincideAutor || obrasCoincidentes.length > 0) {
+            resultados.push({
+              autor: autor,
+              obras: coincideAutor ? autor.obras : obrasCoincidentes
+            });
+          }
+        });
+
+        if (resultados.length === 0) {
+          contenedor.innerHTML = "<p>No se encontraron resultados para tu búsqueda.</p>";
+        } else {
+          resultados.forEach(resultado => {
+            const div = document.createElement("div");
+            div.className = "autor-card";
+
+            // Crear miniatura y biografía
+            div.innerHTML = `
+              <img src="${resultado.autor.imagen}" alt="${resultado.autor.nombre}">
+              <div class="bio">
+                <h3>${resultado.autor.nombre}</h3>
+                <p>${resultado.autor.biografia.substring(0, 150)}...</p>
+              </div>
+              <h4>Partituras encontradas:</h4>
+              <ul>
+                ${resultado.obras.map(obra => `
+                  <li>
+                    <strong>${obra.titulo}</strong> — ${obra.genero}<br>
+                    <a href="${obra.pdf}" target="_blank" class="btn">Ver partitura</a>
+                    <a href="${obra.pdf}" download class="btn">Descargar PDF</a>
+                  </li>
+                `).join("")}
+              </ul>
+            `;
+
+            contenedor.appendChild(div);
+          });
+        }
+      })
+      .catch(err => {
+        console.error(err);
+        document.getElementById("resultados").innerHTML = "<p>Error al cargar los datos.</p>";
+      });
+  </script>
+</body>
+</html>
