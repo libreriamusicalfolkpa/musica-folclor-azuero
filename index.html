@@ -1,187 +1,36 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Librería Musical Folk PA — Repositorio de Azuero</title>
-  <meta name="description" content="Repositorio digital de géneros musicales típicos y folclóricos de Azuero, Panamá. Partituras, audios y videos." />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Repositorio Musical de Azuero</title>
   <style>
-    /* ====== Estilos básicos (limpios y responsivos) ====== */
-    :root{--verde:#004b23;--gris:#f3f4f6;--card:#ffffff;--texto:#222}
-    *{box-sizing:border-box}
-    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial; margin:0; color:var(--texto); background:var(--gris);}
-    header{background:var(--verde); color:#fff; padding:20px 16px; text-align:center}
-    header h1{margin:0;font-size:1.25rem}
-    header p{margin:6px 0 0;font-size:0.95rem;opacity:0.95}
-    main{max-width:1100px;margin:18px auto;padding:0 16px}
-    #buscador{display:flex;justify-content:center;margin:16px 0}
-    #inputBusqueda{width:100%;max-width:760px;padding:12px 14px;font-size:1rem;border-radius:10px;border:1px solid #cfcfcf}
-    #catalogo{display:grid;gap:18px}
-    .autor-grupo{background:transparent;padding:6px 0}
-    .autor-grupo h2{margin:6px 0;color:var(--verde);font-size:1.05rem}
-    .tarjetas{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
-    .card{background:var(--card);border-radius:10px;padding:12px;box-shadow:0 2px 6px rgba(0,0,0,0.06);display:flex;flex-direction:column;height:100%}
-    .card img{width:100%;height:150px;object-fit:cover;border-radius:8px}
-    .card h3{margin:10px 0 6px;font-size:1rem;color:var(--verde)}
-    .meta{font-size:0.9rem;color:#444;margin:0 0 8px}
-    .desc{flex:1;font-size:0.9rem;color:#333;margin-bottom:10px}
-    .enlaces{display:flex;gap:8px;flex-wrap:wrap}
-    .btn{background:var(--verde);color:#fff;padding:8px 10px;border-radius:8px;text-decoration:none;font-weight:600;font-size:0.9rem}
-    .btn-sec{background:#eee;color:#222;padding:8px 10px;border-radius:8px;text-decoration:none;font-weight:600;font-size:0.9rem}
-    footer{max-width:1100px;margin:28px auto 60px;padding:0 16px;text-align:center;color:#555;font-size:0.9rem}
-    @media (max-width:520px){ .card img{height:120px} header h1{font-size:1.05rem} }
+    body { font-family: Arial; background: #fafafa; margin: 40px; }
+    .autor { display: inline-block; margin: 20px; text-align: center; }
+    img { width: 150px; height: 150px; border-radius: 50%; object-fit: cover; }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Librería Musical Folk PA</h1>
-    <p>Repositorio digital de géneros típicos de Azuero — clasificación principal: <strong>por autor</strong></p>
-  </header>
-
-  <main>
-    <section id="buscador">
-      <input id="inputBusqueda" type="search" placeholder="Buscar por título, autor o género..." aria-label="Buscar en el repositorio">
-    </section>
-
-    <section id="catalogo" aria-live="polite">
-      <!-- El catálogo se renderiza aquí -->
-      <p style="text-align:center;color:#666">Cargando catálogo…</p>
-    </section>
-  </main>
-
-  <footer>
-    © <span id="anio"></span> Librería Musical Folk PA — Repositorio de música folclórica de Azuero. Contacto: libreriamusicalfolkpa@gmail.com
-  </footer>
+  <h1>Repositorio Digital de Música Típica de Azuero</h1>
+  <div id="autores"></div>
 
   <script>
-    // ====== Configuración ======
-    const DATA_PATH = 'data.json'; // crea este archivo en el repo con tus obras
-    document.getElementById('anio').textContent = new Date().getFullYear();
-
-    // ====== Cargar datos y mostrar catálogo ======
-    let obras = [];
-
-    async function cargarDatos() {
-      try {
-        const resp = await fetch(DATA_PATH, {cache: "no-store"});
-        if (!resp.ok) throw new Error('No se pudo cargar data.json');
-        obras = await resp.json();
-        mostrarCatalogo(obras);
-      } catch (err) {
-        document.getElementById('catalogo').innerHTML =
-          '<p style="text-align:center;color:#a00">Error: no se encontró <code>data.json</code> o hay un problema al cargarlo.</p>';
-        console.error(err);
-      }
-    }
-
-    function mostrarCatalogo(lista) {
-      const cont = document.getElementById('catalogo');
-      cont.innerHTML = '';
-      if (!lista || !lista.length) {
-        cont.innerHTML = '<p style="text-align:center;color:#666">No hay obras en el catálogo. Agrega entries en <code>data.json</code>.</p>';
-        return;
-      }
-
-      // Agrupar por autor (orden alfabético)
-      const agrupado = lista.reduce((acc, o) => {
-        const autor = (o.autor || 'Autor desconocido').trim();
-        acc[autor] = acc[autor] || [];
-        acc[autor].push(o);
-        return acc;
-      }, {});
-      const autores = Object.keys(agrupado).sort((a,b) => a.localeCompare(b,'es'));
-
-      autores.forEach(autor => {
-        const divG = document.createElement('div');
-        divG.className = 'autor-grupo';
-        const h2 = document.createElement('h2');
-        h2.textContent = autor;
-        divG.appendChild(h2);
-
-        const tarjetas = document.createElement('div');
-        tarjetas.className = 'tarjetas';
-
-        agrupado[autor].forEach(o => {
-          const card = document.createElement('article');
-          card.className = 'card';
-
-          const img = document.createElement('img');
-          img.src = o.imagen || 'https://via.placeholder.com/600x400?text=Portada';
-          img.alt = o.titulo || 'Portada';
-          card.appendChild(img);
-
-          const h3 = document.createElement('h3');
-          h3.textContent = o.titulo || 'Sin título';
-          card.appendChild(h3);
-
-          const meta = document.createElement('p');
-          meta.className = 'meta';
-          meta.innerHTML = `<strong>Género:</strong> ${o.genero || '—'}`;
-          card.appendChild(meta);
-
-          const desc = document.createElement('p');
-          desc.className = 'desc';
-          desc.textContent = o.descripcion ? (o.descripcion.length>140 ? o.descripcion.slice(0,137)+'…' : o.descripcion) : 'Sin descripción';
-          card.appendChild(desc);
-
-          const enlaces = document.createElement('div');
-          enlaces.className = 'enlaces';
-
-          // Ver detalle (detalle.html?titulo=...)
-          const verBtn = document.createElement('a');
-          verBtn.className = 'btn';
-          verBtn.href = `detalle.html?titulo=${encodeURIComponent(o.titulo || '')}`;
-          verBtn.textContent = 'Ver ficha';
-          enlaces.appendChild(verBtn);
-
-          // Descargar PDF si existe
-          if (o.pdf) {
-            const pdfBtn = document.createElement('a');
-            pdfBtn.className = 'btn-sec';
-            pdfBtn.href = o.pdf;
-            pdfBtn.download = '';
-            pdfBtn.textContent = 'Descargar PDF';
-            enlaces.appendChild(pdfBtn);
-          }
-
-          // Reproducir audio (si existe) en nueva pestaña o enlace
-          if (o.audio) {
-            const audioBtn = document.createElement('a');
-            audioBtn.className = 'btn-sec';
-            audioBtn.href = o.audio;
-            audioBtn.target = '_blank';
-            audioBtn.textContent = 'Escuchar audio';
-            enlaces.appendChild(audioBtn);
-          }
-
-          card.appendChild(enlaces);
-          tarjetas.appendChild(card);
+    fetch("autores.json")
+      .then(res => res.json())
+      .then(data => {
+        const contenedor = document.getElementById("autores");
+        data.forEach(autor => {
+          const div = document.createElement("div");
+          div.className = "autor";
+          div.innerHTML = `
+            <img src="${autor.imagen}" alt="${autor.nombre}">
+            <h3>${autor.nombre}</h3>
+            <a href="autor.html?nombre=${encodeURIComponent(autor.nombre)}">Ver más</a>
+          `;
+          contenedor.appendChild(div);
         });
-
-        divG.appendChild(tarjetas);
-        cont.appendChild(divG);
-      });
-    }
-
-    // ====== Buscador (por título, autor, género) ======
-    document.getElementById('inputBusqueda').addEventListener('input', e => {
-      const q = (e.target.value || '').trim().toLowerCase();
-      if (!q) {
-        mostrarCatalogo(obras);
-        return;
-      }
-      const filtradas = obras.filter(o => {
-        return (
-          (o.titulo || '').toLowerCase().includes(q) ||
-          (o.autor || '').toLowerCase().includes(q) ||
-          (o.genero || '').toLowerCase().includes(q)
-        );
-      });
-      mostrarCatalogo(filtradas);
-    });
-
-    // ====== Iniciar ======
-    cargarDatos();
+      })
+      .catch(err => console.error("Error al cargar autores:", err));
   </script>
 </body>
 </html>
