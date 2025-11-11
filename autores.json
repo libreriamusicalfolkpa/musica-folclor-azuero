@@ -15,5 +15,17 @@
         "pdf": "pdfs/La_espina.pdf"
       }
     ]
+  },
+  {
+    "nombre": "Alfredo Escudero",
+    "biografia": "Acordeonista, ganador del concurso Gelo Córdoba.",
+    "imagen": "imagenes/alfredo_escudero.jpg",
+    "obras": [
+      {
+        "titulo": "Revolcón en San Antonio",
+        "genero": "Cumbia cerrada",
+        "pdf": "pdfs/Revolcon_en_san_antonio.pdf"
+      }
+    ]
   }
 ]
