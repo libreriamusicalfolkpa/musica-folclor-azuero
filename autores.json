@@ -1,0 +1,19 @@
+[
+  {
+    "nombre": "Abraham Vergara",
+    "biografia": "Músico y compositor, oriundo de San José de Las Tablas, reconocido por el danzón cumbia, La Linda Ballesteros.",
+    "imagen": "imagenes/abraham_vergara.jpg",
+    "obras": [
+      {
+        "titulo": "Débora y su pollera",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Debora_y_su_pollera.pdf"
+      },
+      {
+        "titulo": "La espina",
+        "genero": "Cumbia atravesada",
+        "pdf": "pdfs/La_espina.pdf"
+      }
+    ]
+  }
+]
