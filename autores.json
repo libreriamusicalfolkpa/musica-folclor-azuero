@@ -135,5 +135,37 @@
         "pdf": "pdfs/Toca_acordeonero.pdf"
       }
     ]
+  },
+  {
+    "nombre": "Artemio Córdova",
+    "biografia": "Artemio Córdova fue un compositor panameño de música popular, especialmente reconocido en la provincia de Los Santos. Destacó por su versatilidad, componiendo en una amplia gama de géneros como la cumbia, el punto, pasillo, danzón, tamborera, mejorana y vals, con "buen gusto y creatividad".",
+    "imagen": "imagenes/desconocido.jpg",
+    "obras": [
+      {
+        "titulo": "Aura Leyda Cortez",
+        "genero": "Pasillo",
+        "pdf": "pdfs/la_flor_del_lilola.pdf"
+      },
+      {
+        "titulo": "Madre buena",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Madre_buena.pdf"
+      },
+            {
+        "titulo": "Pueblo Nuevo",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Pueblo_nuevo.pdf"
+      },
+          {
+        "titulo": "Recuerdos de Josefa",
+        "genero": "Pasillo",
+        "pdf": "pdfs/Recuerdos_de_josefa.pdf"
+      },
+      {
+        "titulo": "Uno a cada lado",
+        "genero": "Pasillo",
+        "pdf": "pdfs/Uno_a_cada_lado.pdf"
+      }
+    ]
   }
 ]
