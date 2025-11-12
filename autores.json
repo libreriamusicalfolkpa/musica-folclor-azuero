@@ -167,5 +167,17 @@
         "pdf": "pdfs/Uno_a_cada_lado.pdf"
       }
     ]
-  }
+  },
+   {
+    "nombre": "Bolivar Rodríguez",
+    "biografia": "Su legado musical forma parte importante de la memoria colectiva y del repertorio tradicional, que sigue interpretándose en distintos escenarios del país.",
+    "imagen": "imagenes/bolivar_rodriguez.jpg",
+    "obras": [
+      {
+        "titulo": "Canajagua Monteadentro",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Canajagua_monteadentro.pdf"
+      }
+    ]
+  },
 ]
