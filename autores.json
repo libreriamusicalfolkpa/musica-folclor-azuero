@@ -108,5 +108,32 @@
         "pdf": "pdfs/bajo_el_cielo_a_tonosi.pdf"
       }
     ]
+  },
+    {
+    "nombre": "Antonio Sáez",
+    "biografia": "Compositor panameño de obras como sinceridad y la flor del lilolá",
+    "imagen": "imagenes/desconocido.jpg",
+    "obras": [
+      {
+        "titulo": "La flor del Lilolá",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/la_flor_del_lilola.pdf"
+      },
+      {
+        "titulo": "Rebujina",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Rebujina.pdf"
+      },
+            {
+        "titulo": "Sinceridad",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Siceridad.pdf"
+      },
+          {
+        "titulo": "Toca acordeonero",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Toca_acordeonero.pdf"
+      }
+    ]
   }
 ]
