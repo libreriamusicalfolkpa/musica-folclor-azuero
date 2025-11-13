@@ -259,5 +259,82 @@
       "pdf": "pdfs/Festival_en_guarare.pdf"
     }
   ]
-}
+},
+   {
+    "nombre": "Clímaco Batista Díaz",
+    "biografia": "Don Clímaco Batista fue un pionero de la música típica panameña interpretada con violín.",
+    "imagen": "imagenes/climaco_batista.jpg",
+    "obras": [
+      {
+        "titulo": "Acordeón de la montaña",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Acordeón_de_la_montaña.pdf"
+      },
+      {
+        "titulo": "Club Tableño",
+        "genero": "Cumbia abierta",
+        "pdf": "pdfs/Club_tableño.pdf"
+      },
+      {
+        "titulo": "Denesa",
+        "genero": "Denesa",
+        "pdf": "pdfs/Denesa.pdf"
+      },
+       {
+        "titulo": "Ileana",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Ileana.pdf"
+      },
+      {
+        "titulo": "Jorón Tonosieño",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Joron_tonosieño.pdf"
+      },
+      {
+        "titulo": "Juventina de Gracia",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Juventina_de_gracia.pdf"
+      },
+       {
+        "titulo": "La leña de Zenón",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/La_leña_de_zenon.pdf"
+      },
+       {
+        "titulo": "La talanquera",
+        "genero": "Cumbia abierta",
+        "pdf": "pdfs/La_talanquera.pdf"
+      },
+       {
+        "titulo": "Las Cocobolas",
+        "genero": "Cumbia abierta",
+        "pdf": "pdfs/Las_cocobolas.pdf"
+      },
+       {
+        "titulo": "Martha",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Martha.pdf"
+      },
+       {
+        "titulo": "Nalú",
+        "genero": "Cumbia zapateada",
+        "pdf": "pdfs/Nalu.pdf"
+      },
+       {
+        "titulo": "Ojos de Pastora",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Ojos_de_pastora.pdf"
+      },
+    {
+        "titulo": "Piedra",
+        "genero": "Pasillo",
+        "pdf": "pdfs/Piedra.pdf"
+      },
+       {
+        "titulo": "Señorita 8 de Noviembre",
+        "genero": "Cumbia abierta",
+        "pdf": "pdfs/Señorita_8_de_noviembre.pdf"
+      }
+    ]
+  }
 ]
