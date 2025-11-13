@@ -196,5 +196,69 @@
         "pdf": "pdfs/Solo_mentiras.pdf"
       }
     ]
+  },
+    },
+   {
+    "nombre": "Carlos Martínez",
+    "biografia": "Agregar información.",
+    "imagen": "imagenes/desconocido.jpg",
+    "obras": [
+      {
+        "titulo": "Le tengo el ojo echao",
+        "genero": "Cumbia atravesada",
+        "pdf": "pdfs/Le_tengo_el_ojo_echao.pdf"
+      }
+    ]
+  },
+     {
+    "nombre": "Casimiro Pimentel",
+    "biografia": "Agregar información.",
+    "imagen": "imagenes/desconocido.jpg",
+    "obras": [
+      {
+        "titulo": "Carretera a Canajagua",
+        "genero": "Cumbia abierta",
+        "pdf": "pdfs/Carretera_a_canajagua.pdf"
+      }
+    ]
+  },
+    {
+    "nombre": "Ceferino Nieto",
+    "biografia": "Fue un acordeonista, violinista y compositor panameño del género típico regional. Era apodado como El Titán de las Américas.",
+    "imagen": "imagenes/ceferino_nieto.jpg",
+    "obras": [
+      {
+        "titulo": "Un niño sin juguete",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Un_niño_sin_juguete.pdf"
+      }
+    ]
+  },
+    {
+    "nombre": "Celso Quintero",
+    "biografia": "Violinista y compositor de música típica panameña oriundo de Sabana Grande",
+    "imagen": "imagenes/celso_quintero.jpg",
+    "obras": [
+      {
+        "titulo": "50 aniverso",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/50_aniversario.pdf"
+      },
+      {
+        "titulo": "Dos amores",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Dos_amores.pdf"
+      },
+            {
+        "titulo": "El último beso",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/El_ultimo_beso.pdf"
+      },
+          {
+        "titulo": "Festival en Guararé",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Festival_en_guarare.pdf"
+      }
+    ]
   }
 ]
