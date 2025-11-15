@@ -263,7 +263,7 @@
    {
     "nombre": "Clímaco Batista Díaz",
     "biografia": "Don Clímaco Batista fue un pionero de la música típica panameña interpretada con violín.",
-    "imagen": "imagenes/climaco_batista.jpg",
+    "imagen": "imagenes/climaco_batista.jpeg",
     "obras": [
       {
         "titulo": "Acordeón de la montaña",
@@ -336,5 +336,74 @@
         "pdf": "pdfs/Señorita_8_de_noviembre.pdf"
       }
     ]
-  }
+  },
+        {
+    "nombre": "Dagoberto Yin Carrizo",
+    "biografia": "Acordeonista y cantautor con mas de 50 años de experiencia. Conocido como el Cantor de la Patria, el Romántico del Acordeón.",
+    "imagen": "imagenes/yin_carrizo.jpg",
+    "obras": [
+      {
+        "titulo": "Viva Panamá",
+        "genero": "Cumbia abierta",
+        "pdf": "pdfs/Viva_panama.pdf"
+      }
+    ]
+  },
+ {
+    "nombre": "Didio Borrero",
+    "biografia": "Didio Borrero  se registra en la historia musical panameña entre los más prolijos compositores vernaculares. También es suyo el mérito de haber sido el primer presidente de la Sociedad Panameña de Autores y Compositores SPAC..",
+    "imagen": "imagenes/didio_borrero.png",
+    "obras": [
+      {
+        "titulo": "A la orilla de la playa",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/A_la_orilla_de_la_playa.pdf"
+      },
+      {
+        "titulo": "A las riveras del Guararé",
+        "genero": "Cumbia abierta",
+        "pdf": "pdfs/A_las_riveras_del_guarare.pdf"
+      },
+       {
+        "titulo": "Amor incomprendido",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Amor_incomprendido.pdf"
+      },
+       {
+        "titulo": "Casi que nada te pido",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Casi_que_nada_te_pido.pdf"
+      },
+      {
+        "titulo": "Dixenia Saavedra",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Dixenia_saavedra.pdf"
+      }
+       {
+        "titulo": "El Vale Saavedra",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/El _vale_saavedra.pdf"
+      },
+       {
+        "titulo": "Lizbeth Emperatriz",
+        "genero": "Cumbia abierta",
+        "pdf": "pdfs/Lizbeth_emperatriz.pdf"
+      },
+       {
+        "titulo": "Para que puedas gozar",
+        "genero": "Cumbia abierta",
+        "pdf": "pdfs/Para_que_puedas_gozar.pdf"
+      },
+       {
+        "titulo": "Pilinqui Borrero",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Pilinqui_borrero.pdf"
+      },
+       {
+        "titulo": "Tu me haces falta",
+        "genero": "Cumbia abierta",
+        "pdf": "pdfs/Tu_me_haces_falta.pdf"
+      }
+    ]
+  }, 
 ]
