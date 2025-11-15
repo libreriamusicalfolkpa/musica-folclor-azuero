@@ -405,5 +405,441 @@
         "pdf": "pdfs/Tu_me_haces_falta.pdf"
       }
     ]
+  },
+  {
+    "nombre": "Dorindo Cárdenas",
+    "biografia": "Agregar información.",
+    "imagen": "imagenes/dorindo_cardenas.jpg",
+    "obras": [
+      {
+        "titulo": "Así se baila allá en mi tierra",
+        "genero": "Cumbia abierta",
+        "pdf": "pdfs/Asi_se_baila_alla_en_mi_tierra.pdf"
+      },
+      {
+        "titulo": "Décimo noveno festival",
+        "genero": "Danzón Cumbia",
+        "pdf": "pdfs/Decimo_noveno_festival.pdf"
+      },
+      {
+        "titulo": "Décimo quinto festival",
+        "genero": "Danzón Cumbia",
+        "pdf": "pdfs/Decimo_quinto_festival.pdf"
+      },
+      {
+        "titulo": "Olvidemos el pasado",
+        "genero": "Danzón Cumbia",
+        "pdf": "pdfs/Olvidemos_el_pasado.pdf"
+      },
+      {
+        "titulo": "Se acaba el mundo",
+        "genero": "Danzón Cumbia",
+        "pdf": "pdfs/Se_acaba_el_mundo.pdf"
+      }
+    ]
+  },
+  {
+    "nombre": "Escolástico Cortez",
+    "biografia": "Agregar información.",
+    "imagen": "imagenes/escolastico_cortez.jpg",
+    "obras": [
+      {
+        "titulo": "China Cortez",
+        "genero": "Danzón Cumbia",
+        "pdf": "pdfs/China_Cortez.pdf"
+      },
+      {
+        "titulo": "Conmigo no se juega",
+        "genero": "Danzón Cumbia",
+        "pdf": "pdfs/Conmigo_no_se_juega.pdf"
+      },
+      {
+        "titulo": "La hierba buena",
+        "genero": "Danzón Cumbia",
+        "pdf": "pdfs/La_hierba_buena.pdf"
+      },
+      {
+        "titulo": "La misma",
+        "genero": "Danzón Cumbia",
+        "pdf": "pdfs/La_misma.pdf"
+      },
+      {
+        "titulo": "Lastenia",
+        "genero": "Danzón Cumbia",
+        "pdf": "pdfs/Lastenia.pdf"
+      },
+      {
+        "titulo": "Los enamorados gozan",
+        "genero": "Danzón Cumbia",
+        "pdf": "pdfs/Los_enamorados_gozan.pdf"
+      },
+      {
+        "titulo": "Me voy a casar mañana",
+        "genero": "Danzón Cumbia",
+        "pdf": "pdfs/Me_voy_a_casar_manana.pdf"
+      },
+      {
+        "titulo": "Ni tu ni yo",
+        "genero": "Cumbia abierta",
+        "pdf": "pdfs/Ni_tu_ni_yo.pdf"
+      },
+      {
+        "titulo": "No tiene por qué saberlo",
+        "genero": "Atravesado",
+        "pdf": "pdfs/No_tiene_por_que_saberlo.pdf"
+      },
+      {
+        "titulo": "Pare un rancho y se la lleva",
+        "genero": "Cumbia abierta",
+        "pdf": "pdfs/Pare_un_rancho_y_se_la_lleva.pdf"
+      },
+      {
+        "titulo": "Todo en la vida pasa",
+        "genero": "Danzón Cumbia",
+        "pdf": "pdfs/Todo_en_la_vida_pasa.pdf"
+      },
+      {
+        "titulo": "Una para que juegue conmigo",
+        "genero": "Danzón Cumbia",
+        "pdf": "pdfs/Una_para_que_juegue_conmigo.pdf"
+      }
+    ]
+  },
+  {
+    "nombre": "Francisco Ramírez",
+    "biografia": "Agregar información.",
+    "imagen": "imagenes/francisco_ramirez.jpg",
+    "obras": [
+      {
+        "titulo": "Barranco del río Muñoz",
+        "genero": "Cumbia abierta",
+        "pdf": "pdfs/Barranco_del_rio_Munoz.pdf"
+      },
+      {
+        "titulo": "Chico quiere a Deya",
+        "genero": "Danzón Cumbia",
+        "pdf": "pdfs/Chico_quiere_a_Deya.pdf"
+      },
+      {
+        "titulo": "Cielito lindo",
+        "genero": "Danzón Cumbia",
+        "pdf": "pdfs/Cielito_lindo.pdf"
+      },
+      {
+        "titulo": "Dice que me quiere",
+        "genero": "Danzón Cumbia",
+        "pdf": "pdfs/Dice_que_me_quiere.pdf"
+      },
+      {
+        "titulo": "Edicta",
+        "genero": "Danzón Cumbia",
+        "pdf": "pdfs/Edicta.pdf"
+      },
+      {
+        "titulo": "El culebrón",
+        "genero": "Danzón Cumbia",
+        "pdf": "pdfs/El_culebron.pdf"
+      },
+      {
+        "titulo": "Graciela Herrera",
+        "genero": "Danzón Cumbia",
+        "pdf": "pdfs/Graciela_Herrera.pdf"
+      },
+      {
+        "titulo": "Guillermina",
+        "genero": "Danzón Cumbia",
+        "pdf": "pdfs/Guillermina.pdf"
+      },
+      {
+        "titulo": "La gallada",
+        "genero": "Danzón Cumbia",
+        "pdf": "pdfs/La_gallada.pdf"
+      },
+      {
+        "titulo": "La pulpa negra",
+        "genero": "Danzón Cumbia",
+        "pdf": "pdfs/La_pulpa_negra.pdf"
+      },
+      {
+        "titulo": "Las flores del camino",
+        "genero": "Danzón Cumbia",
+        "pdf": "pdfs/Las_flores_del_camino.pdf"
+      },
+      {
+        "titulo": "Los sentimientos del alma",
+        "genero": "Danzón Cumbia",
+        "pdf": "pdfs/Los_sentimientos_del_alma.pdf"
+      },
+      {
+        "titulo": "Soy de mi negra",
+        "genero": "Danzón Cumbia",
+        "pdf": "pdfs/Soy_de_mi_negra.pdf"
+      },
+      {
+        "titulo": "Yo me voy pa’ Mariabé",
+        "genero": "Danzón Cumbia",
+        "pdf": "pdfs/Yo_me_voy_pa_Mariabe.pdf"
+      }
+    ]
+  },
+  {
+    "nombre": "Hernán Vergara",
+    "biografia": "Agregar información.",
+    "imagen": "imagenes/hernan_vergara.jpg",
+    "obras": [
+      {
+        "titulo": "Bajo el cielo de San José",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Bajo_el_cielo_de_San_Jose.pdf"
+      },
+      {
+        "titulo": "Camino a San José",
+        "genero": "Cumbia abierta",
+        "pdf": "pdfs/Camino_a_San_Jose.pdf"
+      },
+      {
+        "titulo": "El líder panameñista",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/El_lider_panamenista.pdf"
+      },
+      {
+        "titulo": "Margarita Vargas",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Margarita_Vargas.pdf"
+      },
+      {
+        "titulo": "Mi amor por ella",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Mi_amor_por_ella.pdf"
+      },
+      {
+        "titulo": "Recuerdo de La Palma",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Recuerdo_de_La_Palma.pdf"
+      },
+      {
+        "titulo": "Regreso al Campo",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Regreso_al_Campo.pdf"
+      },
+      {
+        "titulo": "Serenata a Santa Librada",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Serenata_a_Santa_Librada.pdf"
+      }
+    ]
+  },
+  {
+    "nombre": "Horacio González",
+    "biografia": "Agregar información.",
+    "imagen": "imagenes/horacio_gonzalez.jpg",
+    "obras": [
+      {
+        "titulo": "Bella Vista en adelanto",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Bella_Vista_en_adelanto.pdf"
+      }
+    ]
+  },
+  {
+    "nombre": "José De La Rosa Cedeño",
+    "biografia": "Agregar información.",
+    "imagen": "imagenes/jose_de_la_rosa_cedeno.jpg",
+    "obras": [
+      {
+        "titulo": "Amorcito lindo",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Amorcito_lindo.pdf"
+      },
+      {
+        "titulo": "Camino de Pocrí",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Camino_de_Pocri.pdf"
+      },
+      {
+        "titulo": "Cubanita de mi amor",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Cubanita_de_mi_amor.pdf"
+      },
+      {
+        "titulo": "Digna",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Digna.pdf"
+      },
+      {
+        "titulo": "Embustera",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Embustera.pdf"
+      },
+      {
+        "titulo": "La realidad",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/La_realidad.pdf"
+      },
+      {
+        "titulo": "Pienso en ti",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Pienso_en_ti.pdf"
+      },
+      {
+        "titulo": "Por olvidarte",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Por_olvidarte.pdf"
+      },
+      {
+        "titulo": "Recuerdos de la laguna",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Recuerdos_de_la_laguna.pdf"
+      },
+      {
+        "titulo": "Triste vida de un soltero",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Triste_vida_de_un_soltero.pdf"
+      }
+    ]
+  },
+  {
+    "nombre": "Juan Molina",
+    "biografia": "Agregar información.",
+    "imagen": "imagenes/juan_molina.jpg",
+    "obras": [
+      {
+        "titulo": "El bin bin",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/El_bin_bin.pdf"
+      },
+      {
+        "titulo": "Julia",
+        "genero": "Cumbia cerrada",
+        "pdf": "pdfs/Julia.pdf"
+      },
+      {
+        "titulo": "La romanita",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/La_romanita.pdf"
+      },
+      {
+        "titulo": "Las normalistas",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Las_normalistas.pdf"
+      },
+      {
+        "titulo": "Valle Rico",
+        "genero": "Cumbia abierta",
+        "pdf": "pdfs/Valle_Rico.pdf"
+      },
+      {
+        "titulo": "La Espigadilla",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/La_Espigadilla.pdf"
+      }
+    ]
+  },
+  {
+    "nombre": "Mara García",
+    "biografia": "Agregar información.",
+    "imagen": "imagenes/mara_garcia.jpg",
+    "obras": [
+      {
+        "titulo": "Me voy por los callejones",
+        "genero": "Tamborito (tuna)",
+        "pdf": "pdfs/Me_voy_por_los_callejones.pdf"
+      }
+    ]
+  },
+  {
+    "nombre": "Paris Vásquez",
+    "biografia": "Agregar información.",
+    "imagen": "imagenes/paris_vasquez.jpg",
+    "obras": [
+      {
+        "titulo": "Canajagua Azul",
+        "genero": "Cumbia cerrada",
+        "pdf": "pdfs/Canajagua_Azul.pdf"
+      }
+    ]
+  },
+  {
+    "nombre": "Rogelio Córdoba",
+    "biografia": "Agregar información.",
+    "imagen": "imagenes/rogelio_cordoba.jpg",
+    "obras": [
+      {
+        "titulo": "La lindi",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/La_lindi.pdf"
+      },
+      {
+        "titulo": "Vengo de la montaña",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Vengo_de_la_montana.pdf"
+      }
+    ]
+  },
+  {
+    "nombre": "Simón Saavedra",
+    "biografia": "Agregar información.",
+    "imagen": "imagenes/simon_saavedra.jpg",
+    "obras": [
+      {
+        "titulo": "Amanecer en la Colorada",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Amanecer_en_la_Colorada.pdf"
+      },
+      {
+        "titulo": "Playa Venao",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Playa_Venao.pdf"
+      }
+    ]
+  },
+  {
+    "nombre": "Temistoclés Vargas",
+    "biografia": "Agregar información.",
+    "imagen": "imagenes/temistocles_vargas.jpg",
+    "obras": [
+      {
+        "titulo": "La nueva línea de la miel",
+        "genero": "Cumbia abierta",
+        "pdf": "pdfs/La_nueva_linea_de_la_miel.pdf"
+      }
+    ]
+  },
+  {
+    "nombre": "Ubaldino García",
+    "biografia": "Agregar información.",
+    "imagen": "imagenes/ubaldino_garcia.jpg",
+    "obras": [
+      {
+        "titulo": "Mejorana Socavón",
+        "genero": "Torrente de Mejorana",
+        "pdf": "pdfs/Mejorana_Socavon.pdf"
+      }
+    ]
+  },
+  {
+    "nombre": "Victorino Córdoba",
+    "biografia": "Agregar información.",
+    "imagen": "imagenes/victorino_cordoba.jpg",
+    "obras": [
+      {
+        "titulo": "Morena si usted no me quiere",
+        "genero": "Cumbia cerrada",
+        "pdf": "pdfs/Morena_si_usted_no_me_quiere.pdf"
+      }
+    ]
+  },
+  {
+    "nombre": "Victorio Vergara",
+    "biografia": "Agregar información.",
+    "imagen": "imagenes/victorio_vergara.jpg",
+    "obras": [
+      {
+        "titulo": "Me mata la nostalgia",
+        "genero": "Cumbia abierta",
+        "pdf": "pdfs/Me_mata_la_nostalgia.pdf"
+      }
+    ]
   }
 ]
+
