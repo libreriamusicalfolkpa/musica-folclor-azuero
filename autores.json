@@ -14,42 +14,42 @@
         "genero": "Cumbia atravesada",
         "pdf": "pdfs/La_espina.pdf"
       },
-       {
+      {
         "titulo": "La Linda Ballesteros",
         "genero": "Danzón cumbia",
         "pdf": "pdfs/La_linda_ballesteros.pdf"
       },
-       {
+      {
         "titulo": "Magdalena",
         "genero": "Danzón cumbia",
         "pdf": "pdfs/Magdalena.pdf"
       },
-       {
+      {
         "titulo": "Me miran con malos ojos",
         "genero": "Cumbia abierta",
         "pdf": "pdfs/Me_miran_con_malos_ojos.pdf"
       },
-       {
+      {
         "titulo": "Me voy pa la loma azul",
         "genero": "Cumbia abierta",
         "pdf": "pdfs/Me_voy_pa_la_loma_azul.pdf"
       },
-       {
+      {
         "titulo": "Pobrecito yo",
         "genero": "Danzón cumbia",
         "pdf": "pdfs/Pobrecito_yo.pdf"
       },
-       {
+      {
         "titulo": "Rosarito en Pedasí",
         "genero": "Danzón cumbia",
         "pdf": "pdfs/Rosarito_en_pedasi.pdf"
       },
-       {
+      {
         "titulo": "Tilda y Victoriano",
         "genero": "Cumbia atravesada",
         "pdf": "pdfs/Tilda_y_victoriano.pdf"
       },
-       {
+      {
         "titulo": "Yo tengo la trampa armada",
         "genero": "Cumbia abierta",
         "pdf": "pdfs/Yo_tengo_la_trampa_armada.pdf"
@@ -78,14 +78,14 @@
         "genero": "Danzón cumbia",
         "pdf": "pdfs/Chitre.pdf"
       },
-       {
+      {
         "titulo": "Eneida",
         "genero": "Danzón cumbia",
         "pdf": "pdfs/Eneida.pdf"
       }
     ]
   },
-    {
+  {
     "nombre": "Antonio Díaz García",
     "biografia": "Creador de esta página, acordeonista, violinista, compositor entre otros. Ganador de varios concursos.",
     "imagen": "imagenes/antonio_diaz_garcia.JPG",
@@ -97,7 +97,7 @@
       }
     ]
   },
-      {
+  {
     "nombre": "Antonio Toño Díaz",
     "biografia": "Mejor conocido como Antonio “Toño” Díaz, fue periodista y dedicó gran parte de su vida al estudio, promoción y preservación del folclor panameño.",
     "imagen": "imagenes/antonio_diaz.jpg",
@@ -109,7 +109,7 @@
       }
     ]
   },
-    {
+  {
     "nombre": "Antonio Sáez",
     "biografia": "Compositor panameño de obras como sinceridad y la flor del lilolá",
     "imagen": "imagenes/desconocido.jpg",
@@ -124,12 +124,12 @@
         "genero": "Danzón cumbia",
         "pdf": "pdfs/Rebujina.pdf"
       },
-            {
+      {
         "titulo": "Sinceridad",
         "genero": "Danzón cumbia",
         "pdf": "pdfs/Siceridad.pdf"
       },
-          {
+      {
         "titulo": "Toca acordeonero",
         "genero": "Danzón cumbia",
         "pdf": "pdfs/Toca_acordeonero.pdf"
@@ -151,12 +151,12 @@
         "genero": "Danzón cumbia",
         "pdf": "pdfs/Madre_buena.pdf"
       },
-            {
+      {
         "titulo": "Pueblo Nuevo",
         "genero": "Danzón cumbia",
         "pdf": "pdfs/Pueblo_nuevo.pdf"
       },
-          {
+      {
         "titulo": "Recuerdos de Josefa",
         "genero": "Pasillo",
         "pdf": "pdfs/Recuerdos_de_josefa.pdf"
@@ -168,7 +168,7 @@
       }
     ]
   },
-   {
+  {
     "nombre": "Bolivar Rodríguez",
     "biografia": "Su legado musical forma parte importante de la memoria colectiva y del repertorio tradicional, que sigue interpretándose en distintos escenarios del país.",
     "imagen": "imagenes/bolivar_rodriguez.jpg",
@@ -180,87 +180,87 @@
       }
     ]
   },
-{
-  "nombre": "Carlos Cedeño",
-  "biografia": "Formó parte del conjunto típico Los Distiguidos como guitarrista de la agrupación",
-  "imagen": "imagenes/carlos_cedeño.jpg",
-  "obras": [
-    {
-      "titulo": "Lamentos del Alma",
-      "genero": "Danzón cumbia",
-      "pdf": "pdfs/Lamentos_del_alma.pdf"
-    },
-    {
-      "titulo": "Solo mentiras",
-      "genero": "Danzón cumbia",
-      "pdf": "pdfs/Solo_mentiras.pdf"
-    }
-  ]
-},
-{
-  "nombre": "Carlos Martínez",
-  "biografia": "Agregar información.",
-  "imagen": "imagenes/desconocido.jpg",
-  "obras": [
-    {
-      "titulo": "Le tengo el ojo echao",
-      "genero": "Cumbia atravesada",
-      "pdf": "pdfs/Le_tengo_el_ojo_echao.pdf"
-    }
-  ]
-},
-{
-  "nombre": "Casimiro Pimentel",
-  "biografia": "Agregar información.",
-  "imagen": "imagenes/desconocido.jpg",
-  "obras": [
-    {
-      "titulo": "Carretera a Canajagua",
-      "genero": "Cumbia abierta",
-      "pdf": "pdfs/Carretera_a_canajagua.pdf"
-    }
-  ]
-},
-{
-  "nombre": "Ceferino Nieto",
-  "biografia": "Fue un acordeonista, violinista y compositor panameño del género típico regional. Era apodado como El Titán de las Américas.",
-  "imagen": "imagenes/ceferino_nieto.jpg",
-  "obras": [
-    {
-      "titulo": "Un niño sin juguete",
-      "genero": "Danzón cumbia",
-      "pdf": "pdfs/Un_niño_sin_juguete.pdf"
-    }
-  ]
-},
-{
-  "nombre": "Celso Quintero",
-  "biografia": "Violinista y compositor de música típica panameña oriundo de Sabana Grande",
-  "imagen": "imagenes/celso_quintero.jpg",
-  "obras": [
-    {
-      "titulo": "50 aniversario",
-      "genero": "Danzón cumbia",
-      "pdf": "pdfs/50_aniversario.pdf"
-    },
-    {
-      "titulo": "Dos amores",
-      "genero": "Danzón cumbia",
-      "pdf": "pdfs/Dos_amores.pdf"
-    },
-    {
-      "titulo": "El último beso",
-      "genero": "Danzón cumbia",
-      "pdf": "pdfs/El_ultimo_beso.pdf"
-    },
-    {
-      "titulo": "Festival en Guararé",
-      "genero": "Danzón cumbia",
-      "pdf": "pdfs/Festival_en_guarare.pdf"
-    }
-  ]
-},
-   {
+  {
+    "nombre": "Carlos Cedeño",
+    "biografia": "Formó parte del conjunto típico Los Distiguidos como guitarrista de la agrupación",
+    "imagen": "imagenes/carlos_cedeño.jpg",
+    "obras": [
+      {
+        "titulo": "Lamentos del Alma",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Lamentos_del_alma.pdf"
+      },
+      {
+        "titulo": "Solo mentiras",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Solo_mentiras.pdf"
+      }
+    ]
+  },
+  {
+    "nombre": "Carlos Martínez",
+    "biografia": "Agregar información.",
+    "imagen": "imagenes/desconocido.jpg",
+    "obras": [
+      {
+        "titulo": "Le tengo el ojo echao",
+        "genero": "Cumbia atravesada",
+        "pdf": "pdfs/Le_tengo_el_ojo_echao.pdf"
+      }
+    ]
+  },
+  {
+    "nombre": "Casimiro Pimentel",
+    "biografia": "Agregar información.",
+    "imagen": "imagenes/desconocido.jpg",
+    "obras": [
+      {
+        "titulo": "Carretera a Canajagua",
+        "genero": "Cumbia abierta",
+        "pdf": "pdfs/Carretera_a_canajagua.pdf"
+      }
+    ]
+  },
+  {
+    "nombre": "Ceferino Nieto",
+    "biografia": "Fue un acordeonista, violinista y compositor panameño del género típico regional. Era apodado como El Titán de las Américas.",
+    "imagen": "imagenes/ceferino_nieto.jpg",
+    "obras": [
+      {
+        "titulo": "Un niño sin juguete",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Un_niño_sin_juguete.pdf"
+      }
+    ]
+  },
+  {
+    "nombre": "Celso Quintero",
+    "biografia": "Violinista y compositor de música típica panameña oriundo de Sabana Grande",
+    "imagen": "imagenes/celso_quintero.jpg",
+    "obras": [
+      {
+        "titulo": "50 aniversario",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/50_aniversario.pdf"
+      },
+      {
+        "titulo": "Dos amores",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Dos_amores.pdf"
+      },
+      {
+        "titulo": "El último beso",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/El_ultimo_beso.pdf"
+      },
+      {
+        "titulo": "Festival en Guararé",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Festival_en_guarare.pdf"
+      }
+    ]
+  },
+  {
     "nombre": "Clímaco Batista Díaz",
     "biografia": "Don Clímaco Batista fue un pionero de la música típica panameña interpretada con violín.",
     "imagen": "imagenes/climaco_batista.jpeg",
@@ -280,7 +280,7 @@
         "genero": "Denesa",
         "pdf": "pdfs/Denesa.pdf"
       },
-       {
+      {
         "titulo": "Ileana",
         "genero": "Danzón cumbia",
         "pdf": "pdfs/Ileana.pdf"
@@ -295,49 +295,49 @@
         "genero": "Danzón cumbia",
         "pdf": "pdfs/Juventina_de_gracia.pdf"
       },
-       {
+      {
         "titulo": "La leña de Zenón",
         "genero": "Danzón cumbia",
         "pdf": "pdfs/La_leña_de_zenon.pdf"
       },
-       {
+      {
         "titulo": "La talanquera",
         "genero": "Cumbia abierta",
         "pdf": "pdfs/La_talanquera.pdf"
       },
-       {
+      {
         "titulo": "Las Cocobolas",
         "genero": "Cumbia abierta",
         "pdf": "pdfs/Las_cocobolas.pdf"
       },
-       {
+      {
         "titulo": "Martha",
         "genero": "Danzón cumbia",
         "pdf": "pdfs/Martha.pdf"
       },
-       {
+      {
         "titulo": "Nalú",
         "genero": "Cumbia zapateada",
         "pdf": "pdfs/Nalu.pdf"
       },
-       {
+      {
         "titulo": "Ojos de Pastora",
         "genero": "Danzón cumbia",
         "pdf": "pdfs/Ojos_de_pastora.pdf"
       },
-    {
+      {
         "titulo": "Piedra",
         "genero": "Pasillo",
         "pdf": "pdfs/Piedra.pdf"
       },
-       {
+      {
         "titulo": "Señorita 8 de Noviembre",
         "genero": "Cumbia abierta",
         "pdf": "pdfs/Señorita_8_de_noviembre.pdf"
       }
     ]
   },
-        {
+  {
     "nombre": "Dagoberto Yin Carrizo",
     "biografia": "Acordeonista y cantautor con mas de 50 años de experiencia. Conocido como el Cantor de la Patria, el Romántico del Acordeón.",
     "imagen": "imagenes/yin_carrizo.jpg",
@@ -349,61 +349,61 @@
       }
     ]
   },
-{
-  "nombre": "Didio Borrero",
-  "biografia": "Didio Borrero se registra en la historia musical panameña entre los más prolijos compositores vernaculares. También es suyo el mérito de haber sido el primer presidente de la Sociedad Panameña de Autores y Compositores SPAC.",
-  "imagen": "imagenes/didio_borrero.png",
-  "obras": [
-    {
-      "titulo": "A la orilla de la playa",
-      "genero": "Danzón cumbia",
-      "pdf": "pdfs/A_la_orilla_de_la_playa.pdf"
-    },
-    {
-      "titulo": "A las riveras del Guararé",
-      "genero": "Danzón cumbia",
-      "pdf": "pdfs/A_las_riveras_del_guarare.pdf"
-    },
-    {
-      "titulo": "Amor incomprendido",
-      "genero": "Danzón cumbia",
-      "pdf": "pdfs/Amor_incomprendido.pdf"
-    },
-    {
-      "titulo": "Casi que nada te pido",
-      "genero": "Danzón cumbia",
-      "pdf": "pdfs/Casi_que_nada_te_pido.pdf"
-    },
-    {
-      "titulo": "Dixenia Saavedra",
-      "genero": "Danzón cumbia",
-      "pdf": "pdfs/Dixenia_saavedra.pdf"
-    },
-    {
-      "titulo": "El Vale Saavedra",
-      "genero": "Danzón cumbia",
-      "pdf": "pdfs/El_vale_saavedra.pdf"
-    },
-    {
-      "titulo": "Lizbeth Emperatriz",
-      "genero": "Danzón cumbia",
-      "pdf": "pdfs/Lizbeth_emperatriz.pdf"
-    },
-    {
-      "titulo": "Para que puedas gozar",
-      "genero": "Cumbia abierta",
-      "pdf": "pdfs/Para_que_puedas_gozar.pdf"
-    },
-    {
-      "titulo": "Pilinqui Borrero",
-      "genero": "Danzón cumbia",
-      "pdf": "pdfs/Pilinqui_borrero.pdf"
-    },
-    {
-      "titulo": "Tu me haces falta",
-      "genero": "Cumbia abierta",
-      "pdf": "pdfs/Tu_me_haces_falta.pdf"
-    }
-  ]
-}
+  {
+    "nombre": "Didio Borrero",
+    "biografia": "Didio Borrero se registra en la historia musical panameña entre los más prolijos compositores vernaculares. También es suyo el mérito de haber sido el primer presidente de la Sociedad Panameña de Autores y Compositores SPAC.",
+    "imagen": "imagenes/didio_borrero.png",
+    "obras": [
+      {
+        "titulo": "A la orilla de la playa",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/A_la_orilla_de_la_playa.pdf"
+      },
+      {
+        "titulo": "A las riveras del Guararé",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/A_las_riveras_del_guarare.pdf"
+      },
+      {
+        "titulo": "Amor incomprendido",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Amor_incomprendido.pdf"
+      },
+      {
+        "titulo": "Casi que nada te pido",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Casi_que_nada_te_pido.pdf"
+      },
+      {
+        "titulo": "Dixenia Saavedra",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Dixenia_saavedra.pdf"
+      },
+      {
+        "titulo": "El Vale Saavedra",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/El_vale_saavedra.pdf"
+      },
+      {
+        "titulo": "Lizbeth Emperatriz",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Lizbeth_emperatriz.pdf"
+      },
+      {
+        "titulo": "Para que puedas gozar",
+        "genero": "Cumbia abierta",
+        "pdf": "pdfs/Para_que_puedas_gozar.pdf"
+      },
+      {
+        "titulo": "Pilinqui Borrero",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Pilinqui_borrero.pdf"
+      },
+      {
+        "titulo": "Tu me haces falta",
+        "genero": "Cumbia abierta",
+        "pdf": "pdfs/Tu_me_haces_falta.pdf"
+      }
+    ]
+  }
 ]
