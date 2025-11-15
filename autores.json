@@ -364,44 +364,61 @@
         "genero": "Danzón cumbia",
         "pdf": "pdfs/A_las_riveras_del_guarare.pdf"
       },
-       {
-        "titulo": "Amor incomprendido",
-        "genero": "Danzón cumbia",
-        "pdf": "pdfs/Amor_incomprendido.pdf"
-      },
-       {
-        "titulo": "Casi que nada te pido",
-        "genero": "Danzón cumbia",
-        "pdf": "pdfs/Casi_que_nada_te_pido.pdf"
-      },
-      {
-        "titulo": "Dixenia Saavedra",
-        "genero": "Danzón cumbia",
-        "pdf": "pdfs/Dixenia_saavedra.pdf"
-      },
-       {
-        "titulo": "El Vale Saavedra",
-        "genero": "Danzón cumbia",
-        "pdf": "pdfs/El_vale_saavedra.pdf"
-      },
-       {
-        "titulo": "Lizbeth Emperatriz",
-        "genero": "Danzón cumbia",
-        "pdf": "pdfs/Lizbeth_emperatriz.pdf"
-      },
-       {
-        "titulo": "Para que puedas gozar",
-        "genero": "Cumbia abierta",
-        "pdf": "pdfs/Para_que_puedas_gozar.pdf"
-      },
-       {
-        "titulo": "Pilinqui Borrero",
-        "genero": "Danzón cumbia",
-        "pdf": "pdfs/Pilinqui_borrero.pdf"
-      },
-       {
-        "titulo": "Tu me haces falta",
-        "genero": "Cumbia abierta",
-        "pdf": "pdfs/Tu_me_haces_falta.pdf"
-      }
-    ]
+    {
+  "nombre": "Didio Borrero",
+  "biografia": "Didio Borrero se registra en la historia musical panameña entre los más prolijos compositores vernaculares. También es suyo el mérito de haber sido el primer presidente de la Sociedad Panameña de Autores y Compositores SPAC.",
+  "imagen": "imagenes/didio_borrero.png",
+  "obras": [
+    {
+      "titulo": "A la orilla de la playa",
+      "genero": "Danzón cumbia",
+      "pdf": "pdfs/A_la_orilla_de_la_playa.pdf"
+    },
+    {
+      "titulo": "A las riveras del Guararé",
+      "genero": "Danzón cumbia",
+      "pdf": "pdfs/A_las_riveras_del_guarare.pdf"
+    },
+    {
+      "titulo": "Amor incomprendido",
+      "genero": "Danzón cumbia",
+      "pdf": "pdfs/Amor_incomprendido.pdf"
+    },
+    {
+      "titulo": "Casi que nada te pido",
+      "genero": "Danzón cumbia",
+      "pdf": "pdfs/Casi_que_nada_te_pido.pdf"
+    },
+    {
+      "titulo": "Dixenia Saavedra",
+      "genero": "Danzón cumbia",
+      "pdf": "pdfs/Dixenia_saavedra.pdf"
+    },
+    {
+      "titulo": "El Vale Saavedra",
+      "genero": "Danzón cumbia",
+      "pdf": "pdfs/El_vale_saavedra.pdf"
+    },
+    {
+      "titulo": "Lizbeth Emperatriz",
+      "genero": "Danzón cumbia",
+      "pdf": "pdfs/Lizbeth_emperatriz.pdf"
+    },
+    {
+      "titulo": "Para que puedas gozar",
+      "genero": "Cumbia abierta",
+      "pdf": "pdfs/Para_que_puedas_gozar.pdf"
+    },
+    {
+      "titulo": "Pilinqui Borrero",
+      "genero": "Danzón cumbia",
+      "pdf": "pdfs/Pilinqui_borrero.pdf"
+    },
+    {
+      "titulo": "Tu me haces falta",
+      "genero": "Cumbia abierta",
+      "pdf": "pdfs/Tu_me_haces_falta.pdf"
+    }
+  ]
+}
+
