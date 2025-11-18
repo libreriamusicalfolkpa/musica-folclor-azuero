@@ -352,7 +352,7 @@
   {
     "nombre": "Didio Borrero",
     "biografia": "Didio Borrero se registra en la historia musical panameña entre los más prolijos compositores vernaculares. También es suyo el mérito de haber sido el primer presidente de la Sociedad Panameña de Autores y Compositores SPAC.",
-    "imagen": "imagenes/didio_borrero.jpg",
+    "imagen": "imagenes/didio_borrero.JPG",
     "obras": [
       {
         "titulo": "A la orilla de la playa",
@@ -441,7 +441,7 @@
   {
     "nombre": "Escolástico Cortez",
     "biografia": "Agregar información.",
-    "imagen": "imagenes/escolastico_cortez.jpg",
+    "imagen": "imagenes/desconocido.jpg",
     "obras": [
       {
         "titulo": "China Cortez",
@@ -632,7 +632,7 @@
   {
     "nombre": "Horacio González",
     "biografia": "Agregar información.",
-    "imagen": "imagenes/horacio_gonzalez.jpg",
+    "imagen": "imagenes/desconocido.jpg",
     "obras": [
       {
         "titulo": "Bella Vista en adelanto",
@@ -701,7 +701,7 @@
   {
     "nombre": "Juan Molina",
     "biografia": "Agregar información.",
-    "imagen": "imagenes/juan_molina.jpg",
+    "imagen": "imagenes/desconocido.jpg",
     "obras": [
       {
         "titulo": "El bin bin",
@@ -750,7 +750,7 @@
   {
     "nombre": "Paris Vásquez",
     "biografia": "Agregar información.",
-    "imagen": "imagenes/paris_vasquez.jpg",
+    "imagen": "imagenes/desconocido.jpg",
     "obras": [
       {
         "titulo": "Canajagua Azul",
@@ -796,7 +796,7 @@
   {
     "nombre": "Temistoclés Vargas",
     "biografia": "Agregar información.",
-    "imagen": "imagenes/temistocles_vargas.jpg",
+    "imagen": "imagenes/desconocido.jpg",
     "obras": [
       {
         "titulo": "La nueva línea de la miel",
