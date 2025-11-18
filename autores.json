@@ -441,7 +441,7 @@
   {
     "nombre": "Escolástico Cortez",
     "biografia": "Agregar información.",
-    "imagen": "imagenes/desconocido.jpg",
+    "imagen": "imagenes/escolastico_cortez.jpg",
     "obras": [
       {
         "titulo": "China Cortez",
@@ -796,7 +796,7 @@
   {
     "nombre": "Temistoclés Vargas",
     "biografia": "Agregar información.",
-    "imagen": "imagenes/desconocido.jpg",
+    "imagen": "imagenes/temistocles_vargas.jpg",
     "obras": [
       {
         "titulo": "La nueva línea de la miel",
