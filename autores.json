@@ -840,6 +840,23 @@
         "pdf": "pdfs/Me_mata_la_nostalgia.pdf"
       }
     ]
-  }
+  },
+  {
+  "nombre": "Música Religiosa",
+  "biografia": "Música perteneciente a los cantos y celebraciones populares de los santos patronos de la región.",
+  "imagen": "imagenes/musica_religiosa.jpg",
+  "obras": [
+    {
+      "titulo": "El Bendito",
+      "genero": "Música religiosa",
+      "pdf": "pdfs/El_Bendito.pdf"
+    },
+    {
+      "titulo": "Gozos de San Antonio",
+      "genero": "Música religiosa",
+      "pdf": "pdfs/Gozos_de_San_Antonio.pdf"
+    }
+  ]
+}
 ]
 
