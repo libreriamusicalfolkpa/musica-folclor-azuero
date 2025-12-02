@@ -784,12 +784,12 @@
       {
         "titulo": "Amanecer en la Colorada",
         "genero": "Danzón cumbia",
-        "pdf": "pdfs/Amanecer_en_la_Colorada.pdf"
+        "pdf": "pdfs/Amanecer_en_la_colorada.pdf"
       },
       {
         "titulo": "Playa Venao",
         "genero": "Danzón cumbia",
-        "pdf": "pdfs/Playa_Venao.pdf"
+        "pdf": "pdfs/Playa_venao.pdf"
       }
     ]
   },
