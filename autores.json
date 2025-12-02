@@ -738,7 +738,7 @@
   {
     "nombre": "Mara García",
     "biografia": "Poetisa y ganadora del concurso de décima escrita en el año 1984.",
-    "imagen": "imagenes/mara_garcia.jpg",
+    "imagen": "imagenes/mara_garcia.JPG",
     "obras": [
       {
         "titulo": "Me voy por los callejones",
@@ -844,7 +844,7 @@
   {
   "nombre": "Música Religiosa",
   "biografia": "Música perteneciente a los cantos y celebraciones populares de los santos patronos de la región.",
-  "imagen": "imagenes/musica_religiosa.jpg",
+  "imagen": "imagenes/musica_religiosa.JPG",
   "obras": [
     {
       "titulo": "El Bendito",
