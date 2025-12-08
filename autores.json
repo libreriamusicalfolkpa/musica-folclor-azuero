@@ -748,6 +748,63 @@
     ]
   },
   {
+  "nombre": "Máximo Saavedra",
+  "biografia": "Profesor de la Facultad de Bellas Artes en el CRULS.",
+  "imagen": "imagenes/maximo_saavedra.jpg",
+  "obras": [
+    {
+      "titulo": "Doble traición",
+      "genero": "Danzón cumbia",
+      "pdf": "pdfs/Doble_traicion.pdf"
+    },
+    {
+      "titulo": "Dueña de mi corazón",
+      "genero": "Danzón cumbia",
+      "pdf": "pdfs/Duena_de_mi_corazon.pdf"
+    },
+    {
+      "titulo": "Linda sorpresa",
+      "genero": "Danzón cumbia",
+      "pdf": "pdfs/Linda_sorpresa.pdf"
+    },
+    {
+      "titulo": "Malos placeres",
+      "genero": "Danzón cumbia",
+      "pdf": "pdfs/Malos_placeres.pdf"
+    },
+    {
+      "titulo": "Maryan Veronica",
+      "genero": "Danzón cumbia",
+      "pdf": "pdfs/Maryan_Veronica.pdf"
+    },
+    {
+      "titulo": "Me enamora'o solo",
+      "genero": "Danzón cumbia",
+      "pdf": "pdfs/Me_enamorao_solo.pdf"
+    },
+    {
+      "titulo": "No finjamos más",
+      "genero": "Danzón cumbia",
+      "pdf": "pdfs/No_finjamos_mas.pdf"
+    },
+    {
+      "titulo": "No te puedo perdonar",
+      "genero": "Danzón cumbia",
+      "pdf": "pdfs/No_te_puedo_perdonar.pdf"
+    },
+    {
+      "titulo": "Si te vas",
+      "genero": "Danzón cumbia",
+      "pdf": "pdfs/Si_te_vas.pdf"
+    },
+    {
+      "titulo": "También puedo olvidarte",
+      "genero": "Danzón cumbia",
+      "pdf": "pdfs/Tambien_puedo_olvidarte.pdf"
+    }
+  ]
+},
+  {
     "nombre": "Paris Vásquez",
     "biografia": "Paris Teodosio Vásquez es conocido por la obra de su autoria Canajagua Azul.",
     "imagen": "imagenes/desconocido.jpg",
