@@ -139,7 +139,7 @@
   {
     "nombre": "Artemio Córdova",
     "biografia": "Artemio Córdova fue un compositor panameño de música popular, especialmente reconocido en la provincia de Los Santos. Destacó por su versatilidad, componiendo en una amplia gama de géneros como la cumbia, el punto, pasillo, danzón, tamborera, mejorana y vals.",
-    "imagen": "imagenes/desconocido.jpg",
+    "imagen": "imagenes/artemio_cordova.jpg",
     "obras": [
       {
         "titulo": "Aura Leyda Cortez",
@@ -200,7 +200,7 @@
   {
     "nombre": "Carlos Martínez",
     "biografia": "Compositor reconocido por la cumbia atravesada Le tengo el ojo echa'o.",
-    "imagen": "imagenes/desconocido.jpg",
+    "imagen": "imagenes/carlos_martinez.jpg",
     "obras": [
       {
         "titulo": "Le tengo el ojo echao",
@@ -760,7 +760,7 @@
     {
       "titulo": "Dueña de mi corazón",
       "genero": "Danzón cumbia",
-      "pdf": "pdfs/Duena_de_mi_corazon.pdf"
+      "pdf": "pdfs/Dueña_de_mi_corazon.pdf"
     },
     {
       "titulo": "Linda sorpresa",
@@ -775,7 +775,7 @@
     {
       "titulo": "Maryan Veronica",
       "genero": "Danzón cumbia",
-      "pdf": "pdfs/Maryan_Veronica.pdf"
+      "pdf": "pdfs/Maryan_veronica.pdf"
     },
     {
       "titulo": "Me enamora'o solo",
