@@ -931,6 +931,48 @@
       "pdf": "pdfs/se_perdio_el_canajagua.pdf"
     }
   ]
+},
+  {
+  "nombre": "Música de Danzas del Corpus Christi de la Villa de Los Santos",
+  "biografia": "La música de las danzas del Corpus Christi de la Villa de Los Santos forma parte fundamental del patrimonio cultural panameño. Estas piezas acompañan representaciones tradicionales de origen colonial y mestizo, en las que se combinan elementos religiosos, históricos y simbólicos. Su ejecución musical cumple una función ritual y escénica, reforzando la identidad comunitaria y la transmisión intergeneracional de las tradiciones populares.",
+  "imagen": "imagenes/danzas.jpg",
+  "obras": [
+    {
+      "titulo": "Montezuma Española - Marcha de Españoles",
+      "genero": "Música de danzas",
+      "pdf": "pdfs/Marcha_de_españoles.pdf"
+    },
+    {
+      "titulo": "Montezuma Española - Marcha de Indios",
+      "genero": "Música de danzas",
+      "pdf": "pdfs/Marcha_de_indios.pdf"
+    },
+    {
+      "titulo": "Montezuma Española - Marcha Indio Embajador",
+      "genero": "Música de danzas",
+      "pdf": "pdfs/Marcha_indio_embajador.pdf"
+    },
+    {
+      "titulo": "Montezuma Española - Paseo de Calle",
+      "genero": "Música de danzas",
+      "pdf": "pdfs/Paseo_de_calle.pdf"
+    },
+    {
+      "titulo": "Montezuma Española - Punto del Embajador",
+      "genero": "Música de danzas",
+      "pdf": "pdfs/Punto_del_embajador.pdf"
+    },
+    {
+      "titulo": "Montezuma Española - Tema de Entrada",
+      "genero": "Música de danzas",
+      "pdf": "pdfs/Tema_de_entrada.pdf"
+    },
+    {
+      "titulo": "Montezuma Española - Tema del Crisolito",
+      "genero": "Música de danzas",
+      "pdf": "pdfs/Tema_del_crisolito.pdf"
+    }
+  ]
 }
 ]
 
