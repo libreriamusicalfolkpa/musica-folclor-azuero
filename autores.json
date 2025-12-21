@@ -446,12 +446,12 @@
       {
         "titulo": "China Cortez",
         "genero": "Danzón Cumbia",
-        "pdf": "pdfs/China_Cortez.pdf"
+        "pdf": "pdfs/China_cortez.pdf"
       },
       {
         "titulo": "Conmigo no se juega",
         "genero": "Danzón Cumbia",
-        "pdf": "pdfs/Conmigo_no_se_juega.pdf"
+        "pdf": "pdfs/Conmigo_nose_juega.pdf"
       },
       {
         "titulo": "La hierba buena",
@@ -812,7 +812,7 @@
       {
         "titulo": "Canajagua Azul",
         "genero": "Cumbia cerrada",
-        "pdf": "pdfs/Canajagua_Azul.pdf"
+        "pdf": "pdfs/Canajagua_azul.pdf"
       }
     ]
   },
