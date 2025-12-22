@@ -174,9 +174,9 @@
     "imagen": "imagenes/bolivar_rodriguez.jpg",
     "obras": [
       {
-        "titulo": "Canajagua Monteadentro",
+        "titulo": "Canajagua Monte Adentro",
         "genero": "Danzón cumbia",
-        "pdf": "pdfs/Canajagua_monteadentro.pdf"
+        "pdf": "pdfs/Canajagua_monte_adentro.pdf"
       }
     ]
   },
