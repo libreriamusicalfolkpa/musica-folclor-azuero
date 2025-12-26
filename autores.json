@@ -30,11 +30,6 @@
         "pdf": "pdfs/Me_miran_con_malos_ojos.pdf"
       },
       {
-        "titulo": "Me voy pa la loma azul",
-        "genero": "Cumbia abierta",
-        "pdf": "pdfs/Me_voy_pa_la_loma_azul.pdf"
-      },
-      {
         "titulo": "Pobrecito yo",
         "genero": "Danzón cumbia",
         "pdf": "pdfs/Pobrecito_yo.pdf"
@@ -427,14 +422,14 @@
         "pdf": "pdfs/Decimo_quinto_festival.pdf"
       },
       {
+        "titulo": "Me voy pa la loma azul",
+        "genero": "Cumbia abierta",
+        "pdf": "pdfs/Me_voy_pa_la_loma_azul.pdf"
+      },
+      {
         "titulo": "Olvidemos el pasado",
         "genero": "Danzón Cumbia",
         "pdf": "pdfs/Olvidemos_el_pasado.pdf"
-      },
-      {
-        "titulo": "Se acaba el mundo",
-        "genero": "Danzón Cumbia",
-        "pdf": "pdfs/Se_acaba_el_mundo.pdf"
       }
     ]
   },
