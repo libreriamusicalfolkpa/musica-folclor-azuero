@@ -163,6 +163,18 @@
       }
     ]
   },
+ {
+    "nombre": "Artemio Vargas",
+    "biografia": "Violinista y compositor, padre del reconocido músico Nenito Vargas.",
+    "imagen": "imagenes/temistocles_vargas.JPG",
+    "obras": [
+      {
+        "titulo": "La nueva línea de la miel",
+        "genero": "Cumbia abierta",
+        "pdf": "pdfs/La_nueva_linea_de_la_miel.pdf"
+      }
+    ]
+  },
   {
     "nombre": "Bolivar Rodríguez",
     "biografia": "Su legado musical forma parte importante de la memoria colectiva y del repertorio tradicional, que sigue interpretándose en distintos escenarios del país.",
@@ -842,18 +854,6 @@
         "titulo": "Playa Venao",
         "genero": "Danzón cumbia",
         "pdf": "pdfs/Playa_venao.pdf"
-      }
-    ]
-  },
-  {
-    "nombre": "Temistoclés Vargas",
-    "biografia": "Compositor de la reconocida pieza La Nueva Linea de la Miel.",
-    "imagen": "imagenes/temistocles_vargas.JPG",
-    "obras": [
-      {
-        "titulo": "La nueva línea de la miel",
-        "genero": "Cumbia abierta",
-        "pdf": "pdfs/La_nueva_linea_de_la_miel.pdf"
       }
     ]
   },
