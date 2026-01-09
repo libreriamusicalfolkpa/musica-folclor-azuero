@@ -744,14 +744,19 @@
   },
   {
     "nombre": "Mara García",
-    "biografia": "Poetisa y ganadora del concurso de décima escrita en el año 1984.",
+    "biografia": "Poetisa y ganadora del concurso de décima escrita Manuel F. Zárate en el año 1984.",
     "imagen": "imagenes/mara_garcia.JPG",
     "obras": [
       {
         "titulo": "Me voy por los callejones",
         "genero": "Tamborito (tuna)",
         "pdf": "pdfs/Me_voy_por_los_callejones.pdf"
-      }
+      },
+      {
+        "titulo": "Saloma",
+        "genero": "Saloma",
+        "pdf": "pdfs/Saloma.pdf"
+      }      
     ]
   },
   {
@@ -859,7 +864,7 @@
   },
   {
     "nombre": "Ubaldino García",
-    "biografia": "Mejoranero, escritor de décimas, ganador del concurso de décima escrita 1983.",
+    "biografia": "Mejoranero, escritor de décimas, ganador del concurso de décima escrita Manuel F. Zárate 1983.",
     "imagen": "imagenes/ubaldino_garcia.jpg",
     "obras": [
       {
