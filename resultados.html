@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Resultados | Repositorio Musical de Azuero</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+<header>
+  <h1>Resultados de búsqueda</h1>
+  <nav>
+    <a href="index.html" class="btn">Inicio</a>
+    <a href="contacto.html" class="btn">Contacto</a>
+  </nav>
+</header>
+
+<main id="resultados"></main>
+
+<script>
+  const params = new URLSearchParams(window.location.search);
+  const busqueda = params.get("busqueda")?.toLowerCase() || "";
+  const contenedor = document.getElementById("resultados");
+
+  fetch("autores.json")
+    .then(res => res.json())
+    .then(data => {
+      const resultados = [];
+
+      data.forEach(autor => {
+        autor.obras.forEach(obra => {
+          if (
+            obra.titulo.toLowerCase().includes(busqueda) ||
+            obra.genero.toLowerCase().includes(busqueda) ||
+            autor.nombre.toLowerCase().includes(busqueda)
+          ) {
+            resultados.push({ autor, obra });
+          }
+        });
+      });
+
+      if (resultados.length === 0) {
+        contenedor.innerHTML = "<p>No se encontraron resultados.</p>";
+        return;
+      }
+
+      let html = "<ul>";
+      resultados.forEach(item => {
+        html += `
+          <li>
+            <strong>${item.obra.titulo}</strong> – ${item.obra.genero}<br>
+            Autor: ${item.autor.nombre}<br>
+            <a href="${item.obra.pdf}" target="_blank">Ver partitura</a>
+          </li>
+        `;
+      });
+      html += "</ul>";
+
+      contenedor.innerHTML = html;
+    })
+    .catch(() => {
+      contenedor.innerHTML = "<p>Error al cargar resultados.</p>";
+    });
+</script>
+
+</body>
+</html>
