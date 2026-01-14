@@ -166,7 +166,7 @@
  {
     "nombre": "Artemio Vargas",
     "biografia": "Violinista y compositor, padre del reconocido músico Nenito Vargas.",
-    "imagen": "imagenes/temistocles_vargas.png",
+    "imagen": "imagenes/artemio_vargas.png",
     "obras": [
       {
         "titulo": "La nueva línea de la miel",
@@ -176,7 +176,7 @@
     ]
   },
   {
-    "nombre": "Bolivar Rodríguez",
+    "nombre": "Bolívar Rodríguez",
     "biografia": "Su legado musical forma parte importante de la memoria colectiva y del repertorio tradicional, que sigue interpretándose en distintos escenarios del país.",
     "imagen": "imagenes/bolivar_rodriguez.png",
     "obras": [
@@ -639,7 +639,7 @@
   {
     "nombre": "Horacio González",
     "biografia": "Agregar información.",
-    "imagen": "imagenes/hooracio_gonzalez.png",
+    "imagen": "imagenes/horacio_gonzalez.png",
     "obras": [
       {
         "titulo": "Bella Vista en adelanto",
