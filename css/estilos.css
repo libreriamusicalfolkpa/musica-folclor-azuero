@@ -171,7 +171,6 @@ header h1 {
 .btn-descargar:hover {
   background-color: #256f46;
 }
-
 /* =========================
    Footer
    ========================= */
@@ -183,4 +182,46 @@ footer {
   padding: 20px;
   font-size: 0.9rem;
 }
+/* ===============================
+   MODAL – IMAGEN DEL AUTOR
+================================ */
+
+.modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+.modal-contenido {
+  display: block;
+  margin: 60px auto;
+  max-width: 90%;
+  max-height: 80%;
+  border-radius: 10px;
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.25);
+}
+
+.modal-cerrar {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: bold;
+  cursor: pointer;
+  user-select: none;
+}
+
+.modal-cerrar:hover {
+  color: #cccccc;
+}
+
+/* Botón Ver imagen (autor) */
+.acciones-autor {
+  text-align: center;
+  margin: 15px 0 30px;
+}
+
 
