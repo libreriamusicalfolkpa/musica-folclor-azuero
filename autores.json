@@ -66,7 +66,7 @@
   {
     "nombre": "Alberto Rodríguez",
     "biografia": "Compuso su primera pieza musical en el año 1949, la que tituló María Luisa. Luego aparecieron Chitré, Eneida, Rufina Alfaro, Me voy a Pedasí, entre otras. Falleció en la ciudad de Chitré.",
-    "imagen": "imagenes/alberto_rodriguez.jpg",
+    "imagen": "imagenes/alberto_rodriguez.png",
     "obras": [
       {
         "titulo": "Chitré",
@@ -83,7 +83,7 @@
   {
     "nombre": "Antonio Díaz García",
     "biografia": "Creador de esta página, acordeonista, violinista, compositor entre otros. Ganador de varios concursos.",
-    "imagen": "imagenes/antonio_diaz_garcia.JPG",
+    "imagen": "imagenes/antonio_diaz_garcia.png",
     "obras": [
       {
         "titulo": "Punto Mauricellis Díaz",
@@ -95,7 +95,7 @@
   {
     "nombre": "Antonio Toño Díaz",
     "biografia": "Mejor conocido como Antonio “Toño” Díaz, fue periodista y dedicó gran parte de su vida al estudio, promoción y preservación del folclor panameño.",
-    "imagen": "imagenes/antonio_diaz.jpg",
+    "imagen": "imagenes/antonio_diaz.png",
     "obras": [
       {
         "titulo": "Punto Bajo el cielo a Tonosí",
@@ -107,7 +107,7 @@
   {
     "nombre": "Antonio Sáez",
     "biografia": "Compositor panameño de obras como sinceridad y la flor del lilolá",
-    "imagen": "imagenes/antonio_saez.jpg",
+    "imagen": "imagenes/antonio_saez.png",
     "obras": [
       {
         "titulo": "La flor del Lilolá",
@@ -122,7 +122,7 @@
       {
         "titulo": "Sinceridad",
         "genero": "Danzón cumbia",
-        "pdf": "pdfs/Siceridad.pdf"
+        "pdf": "pdfs/Sinceridad.pdf"
       },
       {
         "titulo": "Toca acordeonero",
@@ -134,7 +134,7 @@
   {
     "nombre": "Artemio Córdova",
     "biografia": "Artemio Córdova fue un compositor panameño de música popular, especialmente reconocido en la provincia de Los Santos. Destacó por su versatilidad, componiendo en una amplia gama de géneros como la cumbia, el punto, pasillo, danzón, tamborera, mejorana y vals.",
-    "imagen": "imagenes/artemio_cordova.jpg",
+    "imagen": "imagenes/artemio_cordova.png",
     "obras": [
       {
         "titulo": "Aura Leyda Cortez",
@@ -166,7 +166,7 @@
  {
     "nombre": "Artemio Vargas",
     "biografia": "Violinista y compositor, padre del reconocido músico Nenito Vargas.",
-    "imagen": "imagenes/temistocles_vargas.JPG",
+    "imagen": "imagenes/temistocles_vargas.png",
     "obras": [
       {
         "titulo": "La nueva línea de la miel",
@@ -178,7 +178,7 @@
   {
     "nombre": "Bolivar Rodríguez",
     "biografia": "Su legado musical forma parte importante de la memoria colectiva y del repertorio tradicional, que sigue interpretándose en distintos escenarios del país.",
-    "imagen": "imagenes/bolivar_rodriguez.jpg",
+    "imagen": "imagenes/bolivar_rodriguez.png",
     "obras": [
       {
         "titulo": "Canajagua Monte Adentro",
@@ -190,7 +190,7 @@
   {
     "nombre": "Carlos Cedeño",
     "biografia": "Formó parte del conjunto típico Los Distiguidos como guitarrista de la agrupación",
-    "imagen": "imagenes/carlos_cedeño.jpg",
+    "imagen": "imagenes/carlos_cedeño.png",
     "obras": [
       {
         "titulo": "Lamentos del Alma",
@@ -207,7 +207,7 @@
   {
     "nombre": "Carlos Martínez",
     "biografia": "Compositor reconocido por la cumbia atravesada Le tengo el ojo echa'o.",
-    "imagen": "imagenes/carlos_martinez.jpg",
+    "imagen": "imagenes/carlos_martinez.png",
     "obras": [
       {
         "titulo": "Le tengo el ojo echao",
@@ -231,7 +231,7 @@
   {
     "nombre": "Ceferino Nieto",
     "biografia": "Fue un acordeonista, violinista y compositor panameño del género típico regional. Era apodado como El Titán de las Américas.",
-    "imagen": "imagenes/ceferino_nieto.jpg",
+    "imagen": "imagenes/ceferino_nieto.png",
     "obras": [
       {
         "titulo": "Un niño sin juguete",
@@ -243,7 +243,7 @@
   {
     "nombre": "Celso Quintero",
     "biografia": "Violinista y compositor de música típica panameña oriundo de Sabana Grande",
-    "imagen": "imagenes/celso_quintero.jpg",
+    "imagen": "imagenes/celso_quintero.png",
     "obras": [
       {
         "titulo": "50 aniversario",
@@ -270,7 +270,7 @@
   {
     "nombre": "Clímaco Batista Díaz",
     "biografia": "Don Clímaco Batista fue un pionero de la música típica panameña interpretada con violín.",
-    "imagen": "imagenes/climaco_batista.jpeg",
+    "imagen": "imagenes/climaco_batista.png",
     "obras": [
       {
         "titulo": "Acordeón de la montaña",
@@ -347,7 +347,7 @@
   {
     "nombre": "Dagoberto Yin Carrizo",
     "biografia": "Acordeonista y cantautor con mas de 50 años de experiencia. Conocido como el Cantor de la Patria, el Romántico del Acordeón.",
-    "imagen": "imagenes/yin_carrizo.jpg",
+    "imagen": "imagenes/yin_carrizo.png",
     "obras": [
       {
         "titulo": "Viva Panamá",
@@ -359,7 +359,7 @@
   {
     "nombre": "Didio Borrero",
     "biografia": "Didio Borrero se registra en la historia musical panameña entre los más prolijos compositores vernaculares. También es suyo el mérito de haber sido el primer presidente de la Sociedad Panameña de Autores y Compositores SPAC.",
-    "imagen": "imagenes/didio_borrero.JPG",
+    "imagen": "imagenes/didio_borrero.png",
     "obras": [
       {
         "titulo": "A la orilla de la playa",
@@ -416,7 +416,7 @@
   {
     "nombre": "Dorindo Cárdenas",
     "biografia": "Destacado acordeonista y compositor en su agrupación Orgullo Santeño.",
-    "imagen": "imagenes/dorindo_cardenas.jpg",
+    "imagen": "imagenes/dorindo_cardenas.png",
     "obras": [
       {
         "titulo": "Así se baila allá en mi tierra",
@@ -448,7 +448,7 @@
   {
     "nombre": "Escolástico Cortez",
     "biografia": "Violinista y compositor al que se le reconoce la famosa pieza Guararé.",
-    "imagen": "imagenes/escolastico_cortez.jpg",
+    "imagen": "imagenes/escolastico_cortez.png",
     "obras": [
       {
         "titulo": "China Cortez",
@@ -515,7 +515,7 @@
   {
     "nombre": "Francisco Ramírez",
     "biografia": "Violinista y compositor de amplios danzones cumbias entre ellas Los Sentimientos del Alma.",
-    "imagen": "imagenes/francisco_ramirez.jpg",
+    "imagen": "imagenes/francisco_ramirez.png",
     "obras": [
       {
         "titulo": "Barranco del río Muñoz",
@@ -592,7 +592,7 @@
   {
     "nombre": "Hernán Vergara",
     "biografia": "Músico de la región de San José de las Tablas; estuvo en el conjunto de Dorindo Cárdenas.",
-    "imagen": "imagenes/hernan_vergara.jpg",
+    "imagen": "imagenes/hernan_vergara.png",
     "obras": [
       {
         "titulo": "Bajo el cielo de San José",
@@ -639,7 +639,7 @@
   {
     "nombre": "Horacio González",
     "biografia": "Agregar información.",
-    "imagen": "imagenes/desconocido.jpg",
+    "imagen": "imagenes/hooracio_gonzalez.png",
     "obras": [
       {
         "titulo": "Bella Vista en adelanto",
@@ -651,7 +651,7 @@
   {
     "nombre": "José De La Rosa Cedeño",
     "biografia": "Destacado compositor y violinista; oriundo de La Palma.",
-    "imagen": "imagenes/jose_de_la_rosa_cedeno.jpg",
+    "imagen": "imagenes/jose_de_la_rosa_cedeno.png",
     "obras": [
       {
         "titulo": "Amorcito lindo",
@@ -708,7 +708,7 @@
   {
     "nombre": "Juan Molina",
     "biografia": "Compositor de varias piezas; entre ellas Valle Rico.",
-    "imagen": "imagenes/desconocido.jpg",
+    "imagen": "imagenes/juan_molina.png",
     "obras": [
       {
         "titulo": "El bin bin",
@@ -745,7 +745,7 @@
   {
     "nombre": "Mara García",
     "biografia": "Poetisa y ganadora del concurso de décima escrita Manuel F. Zárate en el año 1984.",
-    "imagen": "imagenes/mara_garcia.JPG",
+    "imagen": "imagenes/mara_garcia.png",
     "obras": [
       {
         "titulo": "Me voy por los callejones",
@@ -831,7 +831,7 @@
   {
     "nombre": "Rogelio Córdoba",
     "biografia": "Pionero del acordeón en Panamá; se le rinde homenaje durante el Festival de La Mejorana.",
-    "imagen": "imagenes/rogelio_cordoba.jpg",
+    "imagen": "imagenes/rogelio_cordoba.png",
     "obras": [
       {
         "titulo": "La lindi",
@@ -848,7 +848,7 @@
   {
     "nombre": "Simón Saavedra",
     "biografia": "Músico y compositor guarareño; cantó en el conjunto de Alfredo Escudero.",
-    "imagen": "imagenes/simon_saavedra.jpg",
+    "imagen": "imagenes/simon_saavedra.png",
     "obras": [
       {
         "titulo": "Amanecer en la Colorada",
@@ -865,7 +865,7 @@
   {
     "nombre": "Ubaldino García",
     "biografia": "Mejoranero, escritor de décimas, ganador del concurso de décima escrita Manuel F. Zárate 1983.",
-    "imagen": "imagenes/ubaldino_garcia.jpg",
+    "imagen": "imagenes/ubaldino_garcia.png",
     "obras": [
       {
         "titulo": "Socabón zapatero",
@@ -877,7 +877,7 @@
   {
     "nombre": "Victorino Córdoba",
     "biografia": "Acordeonista del pueblo guarareño; fue ganador del Gelo Córdoba en su tercera edición.",
-    "imagen": "imagenes/victorino_cordoba.jpg",
+    "imagen": "imagenes/victorino_cordoba.png",
     "obras": [
       {
         "titulo": "Morena si usted no me quiere",
@@ -889,7 +889,7 @@
   {
     "nombre": "Victorio Vergara",
     "biografia": "Destacado acordeonista popularmente conocido como el Tigre de la Candelaria.",
-    "imagen": "imagenes/victorio_vergara.jpg",
+    "imagen": "imagenes/victorio_vergara.png",
     "obras": [
       {
         "titulo": "Me mata la nostalgia",
