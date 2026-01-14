@@ -498,7 +498,7 @@
       {
         "titulo": "Pare un rancho y se la lleva",
         "genero": "Cumbia abierta",
-        "pdf": "pdfs/Pare_un_rancho_y_se_la_lleva.pdf"
+        "pdf": "pdfs/Para_un_rancho_y_se_la_lleva.pdf"
       },
       {
         "titulo": "Todo en la vida pasa",
@@ -508,7 +508,7 @@
       {
         "titulo": "Una para que juegue conmigo",
         "genero": "Danzón Cumbia",
-        "pdf": "pdfs/Una_para_que_juegue_conmigo.pdf"
+        "pdf": "pdfs/Una_que_juegue_conmigo.pdf"
       }
     ]
   },
@@ -520,12 +520,12 @@
       {
         "titulo": "Barranco del río Muñoz",
         "genero": "Cumbia abierta",
-        "pdf": "pdfs/Barranco_del_rio_Munoz.pdf"
+        "pdf": "pdfs/Barranco_del_rio_munoz.pdf"
       },
       {
         "titulo": "Chico quiere a Deya",
         "genero": "Danzón Cumbia",
-        "pdf": "pdfs/Chico_quiere_a_Deya.pdf"
+        "pdf": "pdfs/Chico_quiere_a_deya.pdf"
       },
       {
         "titulo": "Cielito lindo",
@@ -550,7 +550,7 @@
       {
         "titulo": "Graciela Herrera",
         "genero": "Danzón Cumbia",
-        "pdf": "pdfs/Graciela_Herrera.pdf"
+        "pdf": "pdfs/Graciela_herrera.pdf"
       },
       {
         "titulo": "Guillermina",
@@ -733,12 +733,12 @@
       {
         "titulo": "Valle Rico",
         "genero": "Cumbia abierta",
-        "pdf": "pdfs/Valle_Rico.pdf"
+        "pdf": "pdfs/Valle_rico.pdf"
       },
       {
         "titulo": "La Espigadilla",
         "genero": "Danzón cumbia",
-        "pdf": "pdfs/La_Espigadilla.pdf"
+        "pdf": "pdfs/La_espigadilla.pdf"
       }
     ]
   },
