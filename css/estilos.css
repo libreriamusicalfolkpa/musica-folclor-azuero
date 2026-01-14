@@ -72,6 +72,7 @@ header h1 {
   color: #555;
 }
 
+/* Botón general */
 .btn {
   display: inline-block;
   margin-top: 10px;
@@ -80,12 +81,100 @@ header h1 {
   color: white;
   text-decoration: none;
   border-radius: 8px;
-  transition: background 0.3s;
+  transition: background 0.3s, transform 0.1s;
+  font-size: 0.9rem;
 }
 
 .btn:hover {
   background: #005599;
+  transform: translateY(-1px);
 }
+
+/* =========================
+   Autor – obras y acciones
+   ========================= */
+
+.autor-detalle {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.autor-detalle img.autor-img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+.autor-detalle h2 {
+  text-align: center;
+  color: #003366;
+}
+
+.autor-detalle p {
+  text-align: center;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.autor-detalle ul {
+  padding: 0;
+}
+
+.obra-item {
+  list-style: none;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background: #ffffff;
+}
+
+.obra-info {
+  margin-bottom: 8px;
+}
+
+.obra-info strong {
+  display: block;
+  font-size: 1rem;
+  color: #003366;
+}
+
+.obra-info .genero {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.obra-acciones {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+/* Botón Ver */
+.btn-ver {
+  background-color: #2a7ae2;
+}
+
+.btn-ver:hover {
+  background-color: #1f5fb8;
+}
+
+/* Botón Descargar */
+.btn-descargar {
+  background-color: #2e8b57;
+}
+
+.btn-descargar:hover {
+  background-color: #256f46;
+}
+
+/* =========================
+   Footer
+   ========================= */
 
 footer {
   text-align: center;
