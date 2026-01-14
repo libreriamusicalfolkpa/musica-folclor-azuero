@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Repositorio Musical de Azuero</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <header>
+    <h1>Repositorio Digital de Música Típica y Folclórica de Azuero</h1>
+    <p>Una propuesta educativa para la preservación musical panameña</p>
+     <nav>
+    <a href="index.html" class="btn">Inicio</a>
+    <a href="contacto.html" class="btn">Contacto</a>
+  </nav>
+  </header>
+
+  <!-- 🔍 Buscador -->
+  <section id="buscador">
+    <input type="text" id="buscar" placeholder="Buscar por autor, título o género..." onkeypress="handleBuscar(event)">
+  </section>
+
+  <!-- 📚 Lista de autores -->
+  <main id="autores"></main>
+
+  <!-- ⚖️ Pie de página -->
+  <footer>
+    <p>© 2025 Antonio Díaz — Elaboración de un repositorio digital de algunos géneros musicales típicos y folclóricos de la región de Azuero en la República de Panamá: Una propuesta innovadora para su preservación y acceso educativo a través de una plataforma web.</p>
+    <p>Todos los derechos reservados. Tesis.</p>
+  </footer>
+
+  <script>
+    const input = document.getElementById("buscar");
+    const contenedor = document.getElementById("autores");
+    let autoresData = [];
+
+    // Cargar datos desde autores.json
+    fetch("autores.json")
+      .then(res => res.json())
+      .then(data => {
+        autoresData = data;
+        mostrarAutores(data);
+      })
+      .catch(err => {
+        contenedor.innerHTML = "<p style='color:red;'>Error al cargar los datos.</p>";
+        console.error(err);
+      });
+
+    // Mostrar autores
+    function mostrarAutores(lista) {
+      contenedor.innerHTML = "";
+      lista.forEach(autor => {
+        const div = document.createElement("div");
+        div.className = "autor-card";
+        div.innerHTML = `
+          <img src="${autor.imagen}" alt="${autor.nombre}">
+          <h3>${autor.nombre}</h3>
+          <p>${autor.biografia.substring(0, 100)}...</p>
+          <a href="autor.html?nombre=${encodeURIComponent(autor.nombre)}" class="btn">Ver obras</a>
+        `;
+        contenedor.appendChild(div);
+      });
+    }
+
+    // Filtrar autores por búsqueda en tiempo real
+    input.addEventListener("input", e => {
+      const texto = e.target.value.toLowerCase();
+      const filtrados = autoresData.filter(autor =>
+        autor.nombre.toLowerCase().includes(texto) ||
+        autor.obras.some(obra =>
+          obra.titulo.toLowerCase().includes(texto) ||
+          obra.genero.toLowerCase().includes(texto)
+        )
+      );
+      mostrarAutores(filtrados);
+    });
+
+    // Redirigir a resultados.html al presionar Enter
+    function handleBuscar(e) {
+      if (e.key === "Enter") {
+        const texto = e.target.value.trim();
+        if (texto !== "") {
+          window.location.href = `resultados.html?busqueda=${encodeURIComponent(texto)}`;
+        }
+      }
+    }
+  </script>
+</body>
+</html>
+
+
