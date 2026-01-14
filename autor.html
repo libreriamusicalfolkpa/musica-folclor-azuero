@@ -44,10 +44,16 @@
 
       autor.obras.forEach(obra => {
         html += `
-          <li>
-            <strong>${obra.titulo}</strong> – ${obra.genero}
-            <br>
-            <a href="${obra.pdf}" target="_blank">Ver partitura (PDF)</a>
+          <li class="obra-item">
+            <div class="obra-info">
+              <strong>${obra.titulo}</strong>
+              <span class="genero">${obra.genero}</span>
+            </div>
+
+            <div class="obra-acciones">
+              <a href="${obra.pdf}" target="_blank" rel="noopener" class="btn btn-ver">Ver</a>
+              <a href="${obra.pdf}" download class="btn btn-descargar">Descargar</a>
+            </div>
           </li>
         `;
       });
