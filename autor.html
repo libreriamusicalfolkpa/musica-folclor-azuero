@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Autor | Repositorio Musical de Azuero</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+<header>
+  <h1>Autor</h1>
+  <nav>
+    <a href="index.html" class="btn">Inicio</a>
+    <a href="contacto.html" class="btn">Contacto</a>
+  </nav>
+</header>
+
+<main id="autor-detalle"></main>
+
+<script>
+  const params = new URLSearchParams(window.location.search);
+  const nombreAutor = params.get("nombre");
+  const contenedor = document.getElementById("autor-detalle");
+
+  fetch("autores.json")
+    .then(res => res.json())
+    .then(data => {
+      const autor = data.find(a => a.nombre === nombreAutor);
+
+      if (!autor) {
+        contenedor.innerHTML = "<p>Autor no encontrado.</p>";
+        return;
+      }
+
+      let html = `
+        <section class="autor-detalle">
+          <img src="${autor.imagen}" alt="${autor.nombre}" class="autor-img">
+          <h2>${autor.nombre}</h2>
+          <p>${autor.biografia}</p>
+          <h3>Obras</h3>
+          <ul>
+      `;
+
+      autor.obras.forEach(obra => {
+        html += `
+          <li>
+            <strong>${obra.titulo}</strong> – ${obra.genero}
+            <br>
+            <a href="${obra.pdf}" target="_blank">Ver partitura (PDF)</a>
+          </li>
+        `;
+      });
+
+      html += "</ul></section>";
+      contenedor.innerHTML = html;
+    })
+    .catch(() => {
+      contenedor.innerHTML = "<p>Error al cargar el autor.</p>";
+    });
+</script>
+
+</body>
+</html>
