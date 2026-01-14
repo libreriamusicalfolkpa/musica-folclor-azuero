@@ -1,0 +1,977 @@
+guardame json: [
+  {
+    "nombre": "Abraham Vergara",
+    "biografia": "Músico y compositor, oriundo de San José de Las Tablas, reconocido por el danzón cumbia, La Linda Ballesteros.",
+    "imagen": "imagenes/abraham_vergara.png",
+    "obras": [
+      {
+        "titulo": "Débora y su pollera",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Debora_y_su_pollera.pdf"
+      },
+      {
+        "titulo": "La espina",
+        "genero": "Cumbia atravesada",
+        "pdf": "pdfs/La_espina.pdf"
+      },
+      {
+        "titulo": "La Linda Ballesteros",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/La_linda_ballesteros.pdf"
+      },
+      {
+        "titulo": "Magdalena",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Magdalena.pdf"
+      },
+      {
+        "titulo": "Me miran con malos ojos",
+        "genero": "Cumbia abierta",
+        "pdf": "pdfs/Me_miran_con_malos_ojos.pdf"
+      },
+      {
+        "titulo": "Pobrecito yo",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Pobrecito_yo.pdf"
+      },
+      {
+        "titulo": "Rosarito en Pedasí",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Rosarito_en_pedasi.pdf"
+      },
+      {
+        "titulo": "Tilda y Victoriano",
+        "genero": "Cumbia atravesada",
+        "pdf": "pdfs/Tilda_y_victoriano.pdf"
+      },
+      {
+        "titulo": "Yo tengo la trampa armada",
+        "genero": "Cumbia abierta",
+        "pdf": "pdfs/Yo_tengo_la_trampa_armada.pdf"
+      }
+    ]
+  },
+  {
+    "nombre": "Alfredo Escudero",
+    "biografia": "Acordeonista, ganador del concurso Gelo Córdoba.",
+    "imagen": "imagenes/alfredo_escudero.jpg",
+    "obras": [
+      {
+        "titulo": "Revolcón en San Antonio",
+        "genero": "Cumbia cerrada",
+        "pdf": "pdfs/Revolcon_en_san_antonio.pdf"
+      }
+    ]
+  },
+  {
+    "nombre": "Alberto Rodríguez",
+    "biografia": "Compuso su primera pieza musical en el año 1949, la que tituló María Luisa. Luego aparecieron Chitré, Eneida, Rufina Alfaro, Me voy a Pedasí, entre otras. Falleció en la ciudad de Chitré.",
+    "imagen": "imagenes/alberto_rodriguez.jpg",
+    "obras": [
+      {
+        "titulo": "Chitré",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Chitre.pdf"
+      },
+      {
+        "titulo": "Eneida",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Eneida.pdf"
+      }
+    ]
+  },
+  {
+    "nombre": "Antonio Díaz García",
+    "biografia": "Creador de esta página, acordeonista, violinista, compositor entre otros. Ganador de varios concursos.",
+    "imagen": "imagenes/antonio_diaz_garcia.JPG",
+    "obras": [
+      {
+        "titulo": "Punto Mauricellis Díaz",
+        "genero": "Punto",
+        "pdf": "pdfs/Punto.pdf"
+      }
+    ]
+  },
+  {
+    "nombre": "Antonio Toño Díaz",
+    "biografia": "Mejor conocido como Antonio “Toño” Díaz, fue periodista y dedicó gran parte de su vida al estudio, promoción y preservación del folclor panameño.",
+    "imagen": "imagenes/antonio_diaz.jpg",
+    "obras": [
+      {
+        "titulo": "Punto Bajo el cielo a Tonosí",
+        "genero": "Punto",
+        "pdf": "pdfs/bajo_el_cielo_a_tonosi.pdf"
+      }
+    ]
+  },
+  {
+    "nombre": "Antonio Sáez",
+    "biografia": "Compositor panameño de obras como sinceridad y la flor del lilolá",
+    "imagen": "imagenes/antonio_saez.jpg",
+    "obras": [
+      {
+        "titulo": "La flor del Lilolá",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/la_flor_del_lilola.pdf"
+      },
+      {
+        "titulo": "Rebujina",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Rebujina.pdf"
+      },
+      {
+        "titulo": "Sinceridad",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Siceridad.pdf"
+      },
+      {
+        "titulo": "Toca acordeonero",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Toca_acordeonero.pdf"
+      }
+    ]
+  },
+  {
+    "nombre": "Artemio Córdova",
+    "biografia": "Artemio Córdova fue un compositor panameño de música popular, especialmente reconocido en la provincia de Los Santos. Destacó por su versatilidad, componiendo en una amplia gama de géneros como la cumbia, el punto, pasillo, danzón, tamborera, mejorana y vals.",
+    "imagen": "imagenes/artemio_cordova.jpg",
+    "obras": [
+      {
+        "titulo": "Aura Leyda Cortez",
+        "genero": "Pasillo",
+        "pdf": "pdfs/Aura_leyda_cortez.pdf"
+      },
+      {
+        "titulo": "Madre buena",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Madre_buena.pdf"
+      },
+      {
+        "titulo": "Pueblo Nuevo",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Pueblo_nuevo.pdf"
+      },
+      {
+        "titulo": "Recuerdos de Josefa",
+        "genero": "Pasillo",
+        "pdf": "pdfs/Recuerdos_de_josefa.pdf"
+      },
+      {
+        "titulo": "Uno a cada lado",
+        "genero": "Pasillo",
+        "pdf": "pdfs/Uno_a_cada_lado.pdf"
+      }
+    ]
+  },
+ {
+    "nombre": "Artemio Vargas",
+    "biografia": "Violinista y compositor, padre del reconocido músico Nenito Vargas.",
+    "imagen": "imagenes/temistocles_vargas.JPG",
+    "obras": [
+      {
+        "titulo": "La nueva línea de la miel",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/La_nueva_linea_de_la_miel.pdf"
+      }
+    ]
+  },
+  {
+    "nombre": "Bolivar Rodríguez",
+    "biografia": "Su legado musical forma parte importante de la memoria colectiva y del repertorio tradicional, que sigue interpretándose en distintos escenarios del país.",
+    "imagen": "imagenes/bolivar_rodriguez.jpg",
+    "obras": [
+      {
+        "titulo": "Canajagua Monte Adentro",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Canajagua_monte_adentro.pdf"
+      }
+    ]
+  },
+  {
+    "nombre": "Carlos Cedeño",
+    "biografia": "Formó parte del conjunto típico Los Distiguidos como guitarrista de la agrupación",
+    "imagen": "imagenes/carlos_cedeño.jpg",
+    "obras": [
+      {
+        "titulo": "Lamentos del Alma",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Lamentos_del_alma.pdf"
+      },
+      {
+        "titulo": "Solo mentiras",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Solo_mentiras.pdf"
+      }
+    ]
+  },
+  {
+    "nombre": "Carlos Martínez",
+    "biografia": "Compositor reconocido por la cumbia atravesada Le tengo el ojo echa'o.",
+    "imagen": "imagenes/carlos_martinez.jpg",
+    "obras": [
+      {
+        "titulo": "Le tengo el ojo echao",
+        "genero": "Cumbia atravesada",
+        "pdf": "pdfs/Le_tengo_el_ojo_echao.pdf"
+      }
+    ]
+  },
+  {
+    "nombre": "Casimiro Pimentel",
+    "biografia": "Compositor de la reconocida pieza Carretera al Canajagua.",
+    "imagen": "imagenes/desconocido.jpg",
+    "obras": [
+      {
+        "titulo": "Carretera a Canajagua",
+        "genero": "Cumbia cerrada",
+        "pdf": "pdfs/Carretera_a_canajagua.pdf"
+      }
+    ]
+  },
+  {
+    "nombre": "Ceferino Nieto",
+    "biografia": "Fue un acordeonista, violinista y compositor panameño del género típico regional. Era apodado como El Titán de las Américas.",
+    "imagen": "imagenes/ceferino_nieto.jpg",
+    "obras": [
+      {
+        "titulo": "Un niño sin juguete",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Un_niño_sin_juguete.pdf"
+      }
+    ]
+  },
+  {
+    "nombre": "Celso Quintero",
+    "biografia": "Violinista y compositor de música típica panameña oriundo de Sabana Grande",
+    "imagen": "imagenes/celso_quintero.jpg",
+    "obras": [
+      {
+        "titulo": "50 aniversario",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/50_aniversario.pdf"
+      },
+      {
+        "titulo": "Dos amores",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Dos_amores.pdf"
+      },
+      {
+        "titulo": "El último beso",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/El_ultimo_beso.pdf"
+      },
+      {
+        "titulo": "Festival en Guararé",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Festival_en_guarare.pdf"
+      }
+    ]
+  },
+  {
+    "nombre": "Clímaco Batista Díaz",
+    "biografia": "Don Clímaco Batista fue un pionero de la música típica panameña interpretada con violín.",
+    "imagen": "imagenes/climaco_batista.jpeg",
+    "obras": [
+      {
+        "titulo": "Acordeón de la montaña",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Acordeón_de_la_montaña.pdf"
+      },
+      {
+        "titulo": "Club Tableño",
+        "genero": "Cumbia abierta",
+        "pdf": "pdfs/Club_tableño.pdf"
+      },
+      {
+        "titulo": "Denesa",
+        "genero": "Denesa",
+        "pdf": "pdfs/Denesa.pdf"
+      },
+      {
+        "titulo": "Ileana",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Ileana.pdf"
+      },
+      {
+        "titulo": "Jorón Tonosieño",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Joron_tonosieño.pdf"
+      },
+      {
+        "titulo": "Juventina de Gracia",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Juventina_de_gracia.pdf"
+      },
+      {
+        "titulo": "La leña de Zenón",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/La_leña_de_zenon.pdf"
+      },
+      {
+        "titulo": "La talanquera",
+        "genero": "Cumbia abierta",
+        "pdf": "pdfs/La_talanquera.pdf"
+      },
+      {
+        "titulo": "Las Cocobolas",
+        "genero": "Cumbia abierta",
+        "pdf": "pdfs/Las_cocobolas.pdf"
+      },
+      {
+        "titulo": "Martha",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Martha.pdf"
+      },
+      {
+        "titulo": "Nalú",
+        "genero": "Cumbia zapateada",
+        "pdf": "pdfs/Nalu.pdf"
+      },
+      {
+        "titulo": "Ojos de Pastora",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Ojos_de_pastora.pdf"
+      },
+      {
+        "titulo": "Piedra",
+        "genero": "Pasillo",
+        "pdf": "pdfs/Piedra.pdf"
+      },
+      {
+        "titulo": "Señorita 8 de Noviembre",
+        "genero": "Cumbia abierta",
+        "pdf": "pdfs/Señorita_8_de_noviembre.pdf"
+      }
+    ]
+  },
+  {
+    "nombre": "Dagoberto Yin Carrizo",
+    "biografia": "Acordeonista y cantautor con mas de 50 años de experiencia. Conocido como el Cantor de la Patria, el Romántico del Acordeón.",
+    "imagen": "imagenes/yin_carrizo.jpg",
+    "obras": [
+      {
+        "titulo": "Viva Panamá",
+        "genero": "Cumbia abierta",
+        "pdf": "pdfs/Viva_panama.pdf"
+      }
+    ]
+  },
+  {
+    "nombre": "Didio Borrero",
+    "biografia": "Didio Borrero se registra en la historia musical panameña entre los más prolijos compositores vernaculares. También es suyo el mérito de haber sido el primer presidente de la Sociedad Panameña de Autores y Compositores SPAC.",
+    "imagen": "imagenes/didio_borrero.JPG",
+    "obras": [
+      {
+        "titulo": "A la orilla de la playa",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/A_la_orilla_de_la_playa.pdf"
+      },
+      {
+        "titulo": "A las riveras del Guararé",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/A_las_riveras_del_guarare.pdf"
+      },
+      {
+        "titulo": "Amor incomprendido",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Amor_incomprendido.pdf"
+      },
+      {
+        "titulo": "Casi que nada te pido",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Casi_que_nada_te_pido.pdf"
+      },
+      {
+        "titulo": "Dixenia Saavedra",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Dixenia_saavedra.pdf"
+      },
+      {
+        "titulo": "El Vale Saavedra",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/El_vale_saavedra.pdf"
+      },
+      {
+        "titulo": "Lizbeth Emperatriz",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Lizbeth_emperatriz.pdf"
+      },
+      {
+        "titulo": "Para que puedas gozar",
+        "genero": "Cumbia abierta",
+        "pdf": "pdfs/Para_que_puedas_gozar.pdf"
+      },
+      {
+        "titulo": "Pilinqui Borrero",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Pilinqui_borrero.pdf"
+      },
+      {
+        "titulo": "Tu me haces falta",
+        "genero": "Cumbia abierta",
+        "pdf": "pdfs/Tu_me_haces_falta.pdf"
+      }
+    ]
+  },
+  {
+    "nombre": "Dorindo Cárdenas",
+    "biografia": "Destacado acordeonista y compositor en su agrupación Orgullo Santeño.",
+    "imagen": "imagenes/dorindo_cardenas.jpg",
+    "obras": [
+      {
+        "titulo": "Así se baila allá en mi tierra",
+        "genero": "Cumbia abierta",
+        "pdf": "pdfs/Asi_se_baila_alla_en_mi_tierra.pdf"
+      },
+      {
+        "titulo": "Décimo noveno festival",
+        "genero": "Danzón Cumbia",
+        "pdf": "pdfs/Decimo_noveno_festival.pdf"
+      },
+      {
+        "titulo": "Décimo quinto festival",
+        "genero": "Danzón Cumbia",
+        "pdf": "pdfs/Decimo_quinto_festival.pdf"
+      },
+      {
+        "titulo": "Me voy pa la loma azul",
+        "genero": "Cumbia abierta",
+        "pdf": "pdfs/Me_voy_pa_la_loma_azul.pdf"
+      },
+      {
+        "titulo": "Olvidemos el pasado",
+        "genero": "Danzón Cumbia",
+        "pdf": "pdfs/Olvidemos_el_pasado.pdf"
+      }
+    ]
+  },
+  {
+    "nombre": "Escolástico Cortez",
+    "biografia": "Violinista y compositor al que se le reconoce la famosa pieza Guararé.",
+    "imagen": "imagenes/escolastico_cortez.jpg",
+    "obras": [
+      {
+        "titulo": "China Cortez",
+        "genero": "Cumbia abierta",
+        "pdf": "pdfs/China_cortez.pdf"
+      },
+      {
+        "titulo": "Conmigo no se juega",
+        "genero": "Danzón Cumbia",
+        "pdf": "pdfs/Conmigo_nose_juega.pdf"
+      },
+      {
+        "titulo": "La hierba buena",
+        "genero": "Danzón Cumbia",
+        "pdf": "pdfs/La_hierba_buena.pdf"
+      },
+      {
+        "titulo": "La misma",
+        "genero": "Danzón Cumbia",
+        "pdf": "pdfs/La_misma.pdf"
+      },
+      {
+        "titulo": "Lastenia",
+        "genero": "Danzón Cumbia",
+        "pdf": "pdfs/Lastenia.pdf"
+      },
+      {
+        "titulo": "Los enamorados gozan",
+        "genero": "Danzón Cumbia",
+        "pdf": "pdfs/Los_enamorados_gozan.pdf"
+      },
+      {
+        "titulo": "Me voy a casar mañana",
+        "genero": "Danzón Cumbia",
+        "pdf": "pdfs/Me_voy_a_casar_mañana.pdf"
+      },
+      {
+        "titulo": "Ni tu ni yo",
+        "genero": "Cumbia abierta",
+        "pdf": "pdfs/Ni_tu_ni_yo.pdf"
+      },
+      {
+        "titulo": "No tiene por qué saberlo",
+        "genero": "Atravesado",
+        "pdf": "pdfs/No_tiene_porque_saberlo.pdf"
+      },
+      {
+        "titulo": "Pare un rancho y se la lleva",
+        "genero": "Cumbia abierta",
+        "pdf": "pdfs/Pare_un_rancho_y_se_la_lleva.pdf"
+      },
+      {
+        "titulo": "Todo en la vida pasa",
+        "genero": "Danzón Cumbia",
+        "pdf": "pdfs/Todo_en_la_vida_pasa.pdf"
+      },
+      {
+        "titulo": "Una para que juegue conmigo",
+        "genero": "Danzón Cumbia",
+        "pdf": "pdfs/Una_para_que_juegue_conmigo.pdf"
+      }
+    ]
+  },
+  {
+    "nombre": "Francisco Ramírez",
+    "biografia": "Violinista y compositor de amplios danzones cumbias entre ellas Los Sentimientos del Alma.",
+    "imagen": "imagenes/francisco_ramirez.jpg",
+    "obras": [
+      {
+        "titulo": "Barranco del río Muñoz",
+        "genero": "Cumbia abierta",
+        "pdf": "pdfs/Barranco_del_rio_Munoz.pdf"
+      },
+      {
+        "titulo": "Chico quiere a Deya",
+        "genero": "Danzón Cumbia",
+        "pdf": "pdfs/Chico_quiere_a_Deya.pdf"
+      },
+      {
+        "titulo": "Cielito lindo",
+        "genero": "Danzón Cumbia",
+        "pdf": "pdfs/Cielito_lindo.pdf"
+      },
+      {
+        "titulo": "Dice que me quiere",
+        "genero": "Danzón Cumbia",
+        "pdf": "pdfs/Dice_que_me_quiere.pdf"
+      },
+      {
+        "titulo": "Edicta",
+        "genero": "Danzón Cumbia",
+        "pdf": "pdfs/Edicta.pdf"
+      },
+      {
+        "titulo": "El culebrón",
+        "genero": "Danzón Cumbia",
+        "pdf": "pdfs/El_culebron.pdf"
+      },
+      {
+        "titulo": "Graciela Herrera",
+        "genero": "Danzón Cumbia",
+        "pdf": "pdfs/Graciela_Herrera.pdf"
+      },
+      {
+        "titulo": "Guillermina",
+        "genero": "Danzón Cumbia",
+        "pdf": "pdfs/Guillermina.pdf"
+      },
+      {
+        "titulo": "La gallada",
+        "genero": "Danzón Cumbia",
+        "pdf": "pdfs/La_gallada.pdf"
+      },
+      {
+        "titulo": "La pulpa negra",
+        "genero": "Danzón Cumbia",
+        "pdf": "pdfs/La_pulpa_negra.pdf"
+      },
+      {
+        "titulo": "Las flores del camino",
+        "genero": "Danzón Cumbia",
+        "pdf": "pdfs/Las_flores_del_camino.pdf"
+      },
+      {
+        "titulo": "Los sentimientos del alma",
+        "genero": "Danzón Cumbia",
+        "pdf": "pdfs/Los_sentimientos_del_alma.pdf"
+      },
+      {
+        "titulo": "Soy de mi negra",
+        "genero": "Danzón Cumbia",
+        "pdf": "pdfs/Soy_de_mi_negra.pdf"
+      },
+      {
+        "titulo": "Yo me voy pa’ Mariabé",
+        "genero": "Cumbia abierta",
+        "pdf": "pdfs/Yo_me_voy_pa_Mariabe.pdf"
+      }
+    ]
+  },
+  {
+    "nombre": "Hernán Vergara",
+    "biografia": "Músico de la región de San José de las Tablas; estuvo en el conjunto de Dorindo Cárdenas.",
+    "imagen": "imagenes/hernan_vergara.jpg",
+    "obras": [
+      {
+        "titulo": "Bajo el cielo de San José",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Bajo_el_cielo_de_San_Jose.pdf"
+      },
+      {
+        "titulo": "Camino a San José",
+        "genero": "Cumbia abierta",
+        "pdf": "pdfs/Camino_a_San_Jose.pdf"
+      },
+      {
+        "titulo": "El líder panameñista",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/El_lider_panamenista.pdf"
+      },
+      {
+        "titulo": "Margarita Vargas",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Margarita_Vargas.pdf"
+      },
+      {
+        "titulo": "Mi amor por ella",
+        "genero": "Cumbia abierta",
+        "pdf": "pdfs/Mi_amor_por_ella.pdf"
+      },
+      {
+        "titulo": "Recuerdo de La Palma",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Recuerdo_de_La_Palma.pdf"
+      },
+      {
+        "titulo": "Regreso al Campo",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Regreso_al_Campo.pdf"
+      },
+      {
+        "titulo": "Serenata a Santa Librada",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Serenata_a_Santa_Librada.pdf"
+      }
+    ]
+  },
+  {
+    "nombre": "Horacio González",
+    "biografia": "Agregar información.",
+    "imagen": "imagenes/desconocido.jpg",
+    "obras": [
+      {
+        "titulo": "Bella Vista en adelanto",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Bella_Vista_en_adelanto.pdf"
+      }
+    ]
+  },
+  {
+    "nombre": "José De La Rosa Cedeño",
+    "biografia": "Destacado compositor y violinista; oriundo de La Palma.",
+    "imagen": "imagenes/jose_de_la_rosa_cedeno.jpg",
+    "obras": [
+      {
+        "titulo": "Amorcito lindo",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Amorcito_lindo.pdf"
+      },
+      {
+        "titulo": "Camino de Pocrí",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Camino_de_pocri.pdf"
+      },
+      {
+        "titulo": "Cubanita de mi amor",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Cubanita_de_mi_amor.pdf"
+      },
+      {
+        "titulo": "Digna",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Digna.pdf"
+      },
+      {
+        "titulo": "Embustera",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Embustera.pdf"
+      },
+      {
+        "titulo": "La realidad",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/La_realidad.pdf"
+      },
+      {
+        "titulo": "Pienso en ti",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Pienso_en_ti.pdf"
+      },
+      {
+        "titulo": "Por olvidarte",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Por_olvidarte.pdf"
+      },
+      {
+        "titulo": "Recuerdos de la laguna",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Recuerdos_de_la_laguna.pdf"
+      },
+      {
+        "titulo": "Triste vida de un soltero",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Triste_vida_de_un_soltero.pdf"
+      }
+    ]
+  },
+  {
+    "nombre": "Juan Molina",
+    "biografia": "Compositor de varias piezas; entre ellas Valle Rico.",
+    "imagen": "imagenes/desconocido.jpg",
+    "obras": [
+      {
+        "titulo": "El bin bin",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/El_bin_bin.pdf"
+      },
+      {
+        "titulo": "Julia",
+        "genero": "Cumbia cerrada",
+        "pdf": "pdfs/Julia.pdf"
+      },
+      {
+        "titulo": "La romanita",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/La_romanita.pdf"
+      },
+      {
+        "titulo": "Las normalistas",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Las_normalistas.pdf"
+      },
+      {
+        "titulo": "Valle Rico",
+        "genero": "Cumbia abierta",
+        "pdf": "pdfs/Valle_Rico.pdf"
+      },
+      {
+        "titulo": "La Espigadilla",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/La_Espigadilla.pdf"
+      }
+    ]
+  },
+  {
+    "nombre": "Mara García",
+    "biografia": "Poetisa y ganadora del concurso de décima escrita Manuel F. Zárate en el año 1984.",
+    "imagen": "imagenes/mara_garcia.JPG",
+    "obras": [
+      {
+        "titulo": "Me voy por los callejones",
+        "genero": "Tamborito (tuna)",
+        "pdf": "pdfs/Me_voy_por_los_callejones.pdf"
+      },
+      {
+        "titulo": "Saloma",
+        "genero": "Saloma",
+        "pdf": "pdfs/Saloma.pdf"
+      }      
+    ]
+  },
+  {
+  "nombre": "Máximo Saavedra",
+  "biografia": "Profesor de la Facultad de Bellas Artes en el CRULS.",
+  "imagen": "imagenes/maximo_saavedra.png",
+  "obras": [
+    {
+      "titulo": "Doble traición",
+      "genero": "Danzón cumbia",
+      "pdf": "pdfs/Doble_traicion.pdf"
+    },
+    {
+      "titulo": "Dueña de mi corazón",
+      "genero": "Danzón cumbia",
+      "pdf": "pdfs/Dueña_de_mi_corazon.pdf"
+    },
+    {
+      "titulo": "Linda sorpresa",
+      "genero": "Danzón cumbia",
+      "pdf": "pdfs/Linda_sorpresa.pdf"
+    },
+    {
+      "titulo": "Malos placeres",
+      "genero": "Danzón cumbia",
+      "pdf": "pdfs/Malos_placeres.pdf"
+    },
+    {
+      "titulo": "Maryan Veronica",
+      "genero": "Danzón cumbia",
+      "pdf": "pdfs/Maryan_veronica.pdf"
+    },
+    {
+      "titulo": "Me enamora'o solo",
+      "genero": "Danzón cumbia",
+      "pdf": "pdfs/Me_enamorao_solo.pdf"
+    },
+    {
+      "titulo": "No finjamos más",
+      "genero": "Danzón cumbia",
+      "pdf": "pdfs/No_finjamos_mas.pdf"
+    },
+    {
+      "titulo": "No te puedo perdonar",
+      "genero": "Danzón cumbia",
+      "pdf": "pdfs/No_te_puedo_perdonar.pdf"
+    },
+    {
+      "titulo": "Si te vas",
+      "genero": "Danzón cumbia",
+      "pdf": "pdfs/Si_te_vas.pdf"
+    },
+    {
+      "titulo": "También puedo olvidarte",
+      "genero": "Danzón cumbia",
+      "pdf": "pdfs/Tambien_puedo_olvidarte.pdf"
+    }
+  ]
+},
+  {
+    "nombre": "Paris Vásquez",
+    "biografia": "Paris Teodosio Vásquez es conocido por la obra de su autoria Canajagua Azul.",
+    "imagen": "imagenes/desconocido.jpg",
+    "obras": [
+      {
+        "titulo": "Canajagua Azul",
+        "genero": "Cumbia cerrada",
+        "pdf": "pdfs/Canajagua_azul.pdf"
+      }
+    ]
+  },
+  {
+    "nombre": "Rogelio Córdoba",
+    "biografia": "Pionero del acordeón en Panamá; se le rinde homenaje durante el Festival de La Mejorana.",
+    "imagen": "imagenes/rogelio_cordoba.jpg",
+    "obras": [
+      {
+        "titulo": "La lindi",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/La_lindi.pdf"
+      },
+      {
+        "titulo": "Vengo de la montaña",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Vengo_de_la_montana.pdf"
+      }
+    ]
+  },
+  {
+    "nombre": "Simón Saavedra",
+    "biografia": "Músico y compositor guarareño; cantó en el conjunto de Alfredo Escudero.",
+    "imagen": "imagenes/simon_saavedra.jpg",
+    "obras": [
+      {
+        "titulo": "Amanecer en la Colorada",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Amanecer_en_la_colorada.pdf"
+      },
+      {
+        "titulo": "Playa Venao",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Playa_venao.pdf"
+      }
+    ]
+  },
+  {
+    "nombre": "Ubaldino García",
+    "biografia": "Mejoranero, escritor de décimas, ganador del concurso de décima escrita Manuel F. Zárate 1983.",
+    "imagen": "imagenes/ubaldino_garcia.jpg",
+    "obras": [
+      {
+        "titulo": "Socabón zapatero",
+        "genero": "Torrente de Mejorana",
+        "pdf": "pdfs/Socabon_zapatero.pdf"
+      }
+    ]
+  },
+  {
+    "nombre": "Victorino Córdoba",
+    "biografia": "Acordeonista del pueblo guarareño; fue ganador del Gelo Córdoba en su tercera edición.",
+    "imagen": "imagenes/victorino_cordoba.jpg",
+    "obras": [
+      {
+        "titulo": "Morena si usted no me quiere",
+        "genero": "Cumbia cerrada",
+        "pdf": "pdfs/Morena_si_usted_no_me_quiere.pdf"
+      }
+    ]
+  },
+  {
+    "nombre": "Victorio Vergara",
+    "biografia": "Destacado acordeonista popularmente conocido como el Tigre de la Candelaria.",
+    "imagen": "imagenes/victorio_vergara.jpg",
+    "obras": [
+      {
+        "titulo": "Me mata la nostalgia",
+        "genero": "Cumbia abierta",
+        "pdf": "pdfs/Me_mata_la_nostalgia.pdf"
+      }
+    ]
+  },
+  {
+  "nombre": "Música Religiosa",
+  "biografia": "Música perteneciente a los cantos y celebraciones populares de los santos patronos de la región.",
+  "imagen": "imagenes/musica_religiosa.JPG",
+  "obras": [
+    {
+      "titulo": "El Bendito",
+      "genero": "Música religiosa",
+      "pdf": "pdfs/El_bendito.pdf"
+    },
+    {
+      "titulo": "Gozos de San Antonio",
+      "genero": "Música religiosa",
+      "pdf": "pdfs/Gozos_de_San_Antonio.pdf"
+    }
+  ]
+},
+  {
+  "nombre": "Tamborito",
+  "biografia": "El tamborito es uno de los géneros más representativos del folclore panameño. Se caracteriza por el diálogo entre la cantalante y el coro, acompañado por un conjunto de tres tambores (repicador, pujador y caja) y palmas. Su ritmo, estructura responsorial y función social lo convierten en una manifestación emblemática de las festividades y tradiciones del país.",
+  "imagen": "imagenes/tamborito.jpg",
+  "obras": [
+    {
+      "titulo": "Calla Pajarito, Calla",
+      "genero": "Tambor norte",
+      "pdf": "pdfs/calla_pajarito_calla.pdf"
+    },
+    {
+      "titulo": "Se perdió el canajagua",
+      "genero": "Tambor norte",
+      "pdf": "pdfs/se_perdio_el_canajagua.pdf"
+    }
+  ]
+},
+  {
+  "nombre": "Música de Danzas del Corpus Christi de la Villa de Los Santos",
+  "biografia": "La música de las danzas del Corpus Christi de la Villa de Los Santos forma parte fundamental del patrimonio cultural panameño. Estas piezas acompañan representaciones tradicionales de origen colonial y mestizo, en las que se combinan elementos religiosos, históricos y simbólicos. Su ejecución musical cumple una función ritual y escénica, reforzando la identidad comunitaria y la transmisión intergeneracional de las tradiciones populares.",
+  "imagen": "imagenes/danzas.jpg",
+  "obras": [
+    {
+      "titulo": "Montezuma Española - Marcha de Españoles",
+      "genero": "Música de danzas",
+      "pdf": "pdfs/Marcha_de_españoles.pdf"
+    },
+    {
+      "titulo": "Montezuma Española - Marcha de Indios",
+      "genero": "Música de danzas",
+      "pdf": "pdfs/Marcha_de_indios.pdf"
+    },
+    {
+      "titulo": "Montezuma Española - Marcha Indio Embajador",
+      "genero": "Música de danzas",
+      "pdf": "pdfs/Marcha_indio_embajador.pdf"
+    },
+    {
+      "titulo": "Montezuma Española - Paseo de Calle",
+      "genero": "Música de danzas",
+      "pdf": "pdfs/Paseo_de_calle.pdf"
+    },
+    {
+      "titulo": "Montezuma Española - Punto del Embajador",
+      "genero": "Música de danzas",
+      "pdf": "pdfs/Punto_del_Embajador.pdf"
+    },
+    {
+      "titulo": "Montezuma Española - Tema de Entrada",
+      "genero": "Música de danzas",
+      "pdf": "pdfs/Tema_de_entrada.pdf"
+    },
+    {
+      "titulo": "Montezuma Española - Tema del Crisolito",
+      "genero": "Música de danzas",
+      "pdf": "pdfs/Tema_del_crisolito.pdf"
+    }
+  ]
+}
+]
