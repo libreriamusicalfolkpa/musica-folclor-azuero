@@ -13,54 +13,123 @@
   <nav>
     <a href="index.html" class="btn">Inicio</a>
     <a href="contacto.html" class="btn">Contacto</a>
+    <a href="disclaimer.html" class="btn">Disclaimer</a>
   </nav>
 </header>
 
-<main id="resultados"></main>
+<main>
+  <section id="buscador">
+    <p id="texto-resultados" style="text-align:center; margin: 20px 0;"></p>
+  </section>
+
+  <!-- Usamos el mismo contenedor/id que en el home para que aplique .autor-card -->
+  <section id="autores"></section>
+</main>
 
 <script>
   const params = new URLSearchParams(window.location.search);
-  const busqueda = params.get("busqueda")?.toLowerCase() || "";
-  const contenedor = document.getElementById("resultados");
+  const busquedaRaw = params.get("busqueda") || "";
+  const busqueda = busquedaRaw.trim().toLowerCase();
+
+  const textoResultados = document.getElementById("texto-resultados");
+  const contenedor = document.getElementById("autores");
+
+  if (!busqueda) {
+    textoResultados.textContent = "No se ingresó un término de búsqueda.";
+  } else {
+    textoResultados.innerHTML = `Buscaste: <strong>${busquedaRaw}</strong>`;
+  }
+
+  // Crea una tarjeta por autor, con las obras encontradas dentro
+  function crearTarjeta(autor, obrasEncontradas) {
+    const card = document.createElement("div");
+    card.className = "autor-card";
+
+    const obrasHTML = obrasEncontradas.map(obra => `
+      <div class="obra-item" style="margin-top: 12px; text-align:left;">
+        <div class="obra-info">
+          <strong>${obra.titulo}</strong>
+          <span class="genero">${obra.genero || ""}</span>
+        </div>
+
+        <div class="obra-acciones" style="margin-top: 8px;">
+          <a href="${obra.pdf}" target="_blank" rel="noopener" class="btn btn-ver">Ver</a>
+          <a href="${obra.pdf}" download class="btn btn-descargar">Descargar</a>
+        </div>
+      </div>
+    `).join("");
+
+    card.innerHTML = `
+      <img src="${autor.imagen}" alt="${autor.nombre}">
+      <h3>${autor.nombre}</h3>
+      <p>${autor.biografia || ""}</p>
+      <a class="btn" href="autor.html?nombre=${encodeURIComponent(autor.nombre)}">Ver obras del autor</a>
+
+      <div style="margin-top: 14px;">
+        <h4 style="margin: 10px 0; color:#003366;">Coincidencias</h4>
+        ${obrasHTML}
+      </div>
+    `;
+
+    contenedor.appendChild(card);
+  }
 
   fetch("autores.json")
     .then(res => res.json())
     .then(data => {
-      const resultados = [];
+      contenedor.innerHTML = "";
+
+      if (!busqueda) {
+        contenedor.innerHTML = `
+          <div class="autor-card">
+            <h3>Escribe algo para buscar</h3>
+            <p>Prueba con el nombre de una obra, un género o el nombre del autor.</p>
+            <a class="btn" href="index.html">Volver al inicio</a>
+          </div>
+        `;
+        return;
+      }
+
+      // Agrupar resultados por autor (para no repetir la foto)
+      const mapa = new Map(); // nombreAutor -> {autor, obras: []}
 
       data.forEach(autor => {
-        autor.obras.forEach(obra => {
-          if (
-            obra.titulo.toLowerCase().includes(busqueda) ||
-            obra.genero.toLowerCase().includes(busqueda) ||
-            autor.nombre.toLowerCase().includes(busqueda)
-          ) {
-            resultados.push({ autor, obra });
+        (autor.obras || []).forEach(obra => {
+          const titulo = (obra.titulo || "").toLowerCase();
+          const genero = (obra.genero || "").toLowerCase();
+          const nombreAutor = (autor.nombre || "").toLowerCase();
+
+          const coincide =
+            titulo.includes(busqueda) ||
+            genero.includes(busqueda) ||
+            nombreAutor.includes(busqueda);
+
+          if (coincide) {
+            if (!mapa.has(autor.nombre)) {
+              mapa.set(autor.nombre, { autor, obras: [] });
+            }
+            mapa.get(autor.nombre).obras.push(obra);
           }
         });
       });
 
+      const resultados = Array.from(mapa.values());
+
       if (resultados.length === 0) {
-        contenedor.innerHTML = "<p>No se encontraron resultados.</p>";
+        contenedor.innerHTML = `
+          <div class="autor-card">
+            <h3>No se encontraron resultados</h3>
+            <p>Intenta con otro término o revisa la ortografía.</p>
+            <a class="btn" href="index.html">Volver al inicio</a>
+          </div>
+        `;
         return;
       }
 
-      let html = "<ul>";
-      resultados.forEach(item => {
-        html += `
-          <li>
-            <strong>${item.obra.titulo}</strong> – ${item.obra.genero}<br>
-            Autor: ${item.autor.nombre}<br>
-            <a href="${item.obra.pdf}" target="_blank">Ver partitura</a>
-          </li>
-        `;
-      });
-      html += "</ul>";
-
-      contenedor.innerHTML = html;
+      resultados.forEach(r => crearTarjeta(r.autor, r.obras));
     })
     .catch(() => {
-      contenedor.innerHTML = "<p>Error al cargar resultados.</p>";
+      contenedor.innerHTML = "<p style='text-align:center;'>Error al cargar resultados.</p>";
     });
 </script>
 
