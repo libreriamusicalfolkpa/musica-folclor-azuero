@@ -16,30 +16,48 @@
   </nav>
 </header>
 
-<main>
-  <section class="contacto">
-    <p>
-      Este repositorio digital forma parte del trabajo de investigación titulado:
-    </p>
+<main class="autor-detalle">
+  <h2>Formulario de contacto</h2>
 
-    <blockquote>
-      “Elaboración de un repositorio digital de algunos géneros musicales típicos y
-      folclóricos de la región de Azuero en la República de Panamá: Una propuesta innovadora
-      para su preservación y acceso educativo a través de una plataforma web”.
-    </blockquote>
+  <p style="text-align:center;">
+    Si desea realizar una consulta académica, educativa o investigativa relacionada
+    con este repositorio, puede enviar un mensaje a través del siguiente formulario.
+  </p>
 
-    <p>
-      Autor: <strong>Antonio Díaz</strong><br>
-      Año: 2025
-    </p>
+  <form
+    action="mailto:libreriamusicalfolkpa@gmail.com"
+    method="post"
+    enctype="text/plain"
+    style="max-width: 500px; margin: 0 auto;"
+  >
+    <label for="email"><strong>Correo electrónico</strong></label><br>
+    <input
+      type="email"
+      id="email"
+      name="Correo del remitente"
+      required
+      style="width:100%; padding:10px; margin:8px 0 16px;"
+    >
 
-    <p>
-      Para fines académicos, investigativos o educativos, puede contactarse a través de la
-      institución correspondiente.
-    </p>
-  </section>
+    <label for="mensaje"><strong>Mensaje</strong></label><br>
+    <textarea
+      id="mensaje"
+      name="Mensaje"
+      rows="6"
+      required
+      style="width:100%; padding:10px; margin:8px 0 16px;"
+    ></textarea>
+
+    <button type="submit" class="btn" style="width:100%;">
+      Enviar mensaje
+    </button>
+  </form>
+
+  <p style="text-align:center; margin-top:20px; font-size:0.9rem; color:#555;">
+    * El envío del mensaje se realizará mediante el cliente de correo electrónico
+    configurado en su dispositivo.
+  </p>
 </main>
 
 </body>
 </html>
-
