@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Contacto | Repositorio Musical de Azuero</title>
+  <title>Contacto | Libreria Musical Folklórica de Panamá</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/estilos.css">
 </head>
@@ -20,33 +20,39 @@
   <h2>Formulario de contacto</h2>
 
   <p style="text-align:center;">
-    Si desea realizar una consulta académica, educativa o investigativa relacionada
-    con este repositorio, puede enviar un mensaje a través del siguiente formulario.
+    Para consultas académicas, educativas o investigativas relacionadas con este
+    repositorio, puede enviar un mensaje a través del siguiente formulario.
   </p>
 
   <form
-    action="mailto:libreriamusicalfolkpa@gmail.com"
-    method="post"
-    enctype="text/plain"
+    action="https://formspree.io/f/mvzzqoqo"
+    method="POST"
     style="max-width: 500px; margin: 0 auto;"
   >
-    <label for="email"><strong>Correo electrónico</strong></label><br>
+    <label for="email"><strong>Correo electrónico</strong></label>
     <input
       type="email"
       id="email"
-      name="Correo del remitente"
+      name="email"
       required
       style="width:100%; padding:10px; margin:8px 0 16px;"
     >
 
-    <label for="mensaje"><strong>Mensaje</strong></label><br>
+    <label for="message"><strong>Mensaje</strong></label>
     <textarea
-      id="mensaje"
-      name="Mensaje"
+      id="message"
+      name="message"
       rows="6"
       required
       style="width:100%; padding:10px; margin:8px 0 16px;"
     ></textarea>
+
+    <!-- Asunto personalizado -->
+    <input
+      type="hidden"
+      name="_subject"
+      value="Mensaje desde el Repositorio Musical de Azuero"
+    >
 
     <button type="submit" class="btn" style="width:100%;">
       Enviar mensaje
@@ -54,8 +60,7 @@
   </form>
 
   <p style="text-align:center; margin-top:20px; font-size:0.9rem; color:#555;">
-    * El envío del mensaje se realizará mediante el cliente de correo electrónico
-    configurado en su dispositivo.
+    El mensaje será enviado directamente al correo del repositorio.
   </p>
 </main>
 
