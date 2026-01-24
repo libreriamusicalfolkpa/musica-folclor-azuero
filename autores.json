@@ -267,6 +267,18 @@
       }
     ]
   },
+    {
+    "nombre": "Celsito Quintero",
+    "biografia": "Músico, compositor y líder de la agrupación Los Insuperables.",
+    "imagen": "imagenes/Celsito_quintero.png",
+    "obras": [
+      {
+        "titulo": "Gotitas de amor",
+        "genero": "Danzón cumbia",
+        "pdf": "pdfs/Gotitas_de_amor.pdf"
+      }
+    ]
+  },
   {
     "nombre": "Clímaco Batista Díaz",
     "biografia": "Don Clímaco Batista fue un pionero de la música típica panameña interpretada con violín.",
