@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
@@ -10,11 +10,11 @@
   <header>
     <h1>Repositorio Digital de Música Típica y Folclórica de Azuero</h1>
     <p>Una propuesta educativa para la preservación musical panameña</p>
-    <nav>
-      <a href="index.html" class="btn">Inicio</a>
-      <a href="contacto.html" class="btn">Contacto</a>
-      <a href="disclaimer.html" class="btn">Disclaimer</a>
-    </nav>
+   <nav>
+  <a href="index.html" class="btn">Inicio</a>
+  <a href="contacto.html" class="btn">Contacto</a>
+  <a href="disclaimer.html" class="btn">Disclaimer</a>
+</nav>
   </header>
 
   <!-- 🔍 Buscador -->
@@ -29,9 +29,6 @@
   <footer>
     <p>© 2025 Antonio Díaz — Elaboración de un repositorio digital de algunos géneros musicales típicos y folclóricos de la región de Azuero en la República de Panamá: Una propuesta innovadora para su preservación y acceso educativo a través de una plataforma web.</p>
     <p>Todos los derechos reservados. Tesis.</p>
-
-    <!-- 👁️ Contador de visitas -->
-    <p>👁️ Visitas: <span id="contador-visitas">...</span></p>
   </footer>
 
   <script>
@@ -57,12 +54,12 @@
       lista.forEach(autor => {
         const div = document.createElement("div");
         div.className = "autor-card";
-        div.innerHTML = `
+        div.innerHTML = 
           <img src="${autor.imagen}" alt="${autor.nombre}">
           <h3>${autor.nombre}</h3>
           <p>${autor.biografia.substring(0, 100)}...</p>
           <a href="autor.html?nombre=${encodeURIComponent(autor.nombre)}" class="btn">Ver obras</a>
-        `;
+        ;
         contenedor.appendChild(div);
       });
     }
@@ -85,16 +82,11 @@
       if (e.key === "Enter") {
         const texto = e.target.value.trim();
         if (texto !== "") {
-          window.location.href = `resultados.html?busqueda=${encodeURIComponent(texto)}`;
+          window.location.href = resultados.html?busqueda=${encodeURIComponent(texto)};
         }
       }
     }
   </script>
-
-  <!-- Script del contador (debe ir al final) -->
-  <script src="js/contador-visitas.js"></script>
 </body>
 </html>
-
-
 
